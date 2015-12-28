@@ -1,0 +1,5 @@
+http://dev.openwengo.com/trac/openwengo/trac.cgi/browser/wengophone-ng/trunk/libs/trayicon
+
+We need to give them credit for the tray icon stuff.
+
+Daniel

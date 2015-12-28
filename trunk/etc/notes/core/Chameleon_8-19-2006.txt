@@ -1,0 +1,78 @@
+Notes for Data Manipulation
+
+Steve (or really anyone else), if you have any objections, feel free! These are just my ideas for how our layer will work.
+
+One of our main components is the timer that will run every x seconds. This will be configurable by the user. However, the user will not be able to set it for any less than say 30 seconds (to prevent too many HTTP requests from one user).
+
+Some Pseudocode:
+
+<timer> (<every x seconds...>)
+{
+	if (<user wants poke notification>) {
+		Get poke data from kernel.
+		Determine if new poke notification should be displayed.
+		If so, use user interface class that displays new poke?
+	}
+
+	if (<user wants wall notification>) {
+		Get wall data from kernel.
+		Determine if new wall notification should be displayed.
+		If so, use user interface class that displays new wall post?
+	}
+
+	if (<user wants something else...>) {
+		<Same kind of pattern...>
+	}
+}
+
+After thinking about this some more, I came up with some classes to make this more efficient:
+
+class FBGenericNotifier
+{
+	public:
+	FBGenericDataType getData() const;
+	bool hasNew();
+	void notifyUI(void *) const;
+
+	private:
+	...	
+}
+
+class FBPokeNotifier : FBGenericNotifier
+{
+	public:
+	FBGenericDataType getData() const; // Now returns FBPokeType which is a child of FBGenericDataType.
+	bool hasNew(); // Determines if there is a new poke.
+	void notifyUI(void *) const; // Calls the appropriate UI class for displaying new poke notification. That void * parameter would be casted to an int type which stores the number of unseen pokes for the UI to display. Or we could change that part of it...
+}
+
+And now with these new classes, inside the timer we now have...
+
+#define FB_NUM_NOTIFIERS 2;
+
+#define FB_POKE_NOTIFIER_ID 0;
+#define FB_WALL_NOTIFIER_ID 1;
+...
+
+FBNotifier[] notifiers = new FBNotifier[FB_NUM_NOTIFIERS];
+notifiers[FB_POKE_NOTIFIER_ID] = new FBPokeNotifier();
+notifiers[FB_WALL_NOTIFIER_ID] = new FBWallNotifier();
+...
+
+<timer> (<every x seconds...>)
+{
+	int i = 0;
+	FBGenericDataType data;
+
+	for (i = 0; i < FB_NUM_NOTIFIERS; i++) {
+		data = notifiers[i].getData();
+
+		if (notifiers[i].hasNew()) {
+			notifiers.notifyUI(...);
+		}
+	}
+
+        ...
+}
+
+I cannot think of better names for these classes. I hope this isn't too confusing. I think I might've confused myself a little. :P

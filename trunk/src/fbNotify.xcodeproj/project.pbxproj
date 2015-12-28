@@ -1,0 +1,1157 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01613D64056567C0B5E1654F /* FBNLoginButton.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 316850B0B67E81C9BFA596A8 /* FBNLoginButton.cpp */; settings = {ATTRIBUTES = (); }; };
+		02871AEC81401EE46E755535 /* FBPokeNotification.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 6683143309B895BDDE7C401C /* FBPokeNotification.cpp */; settings = {ATTRIBUTES = (); }; };
+		03BD93379CC6735DEDFB4800 /* fbNotify.icns in Bundle Resources */ = {isa = PBXBuildFile; fileRef = 0862AD1D8623E18142D28636 /* fbNotify.icns */; settings = {ATTRIBUTES = (); }; };
+		0622D4BA65364F995909CA1E /* FBNApplication.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = C06248718E8F90E6C8A2F1D1 /* FBNApplication.cpp */; settings = {ATTRIBUTES = (); }; };
+		069D05B0128AE5DC7EE31738 /* QtCore.framework in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = 7BC2E65A5E699A5E5D834CA2 /* QtCore.framework */; };
+		097039E72466EA41BCFD245D /* FBNHttp.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = B9EE998E0BB94A10971A3191 /* FBNHttp.cpp */; settings = {ATTRIBUTES = (); }; };
+		0A1ECC9F5B3CF26204140EC0 /* FBNNotificationsPanel.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 2B5CD7B31C405635984F81A3 /* FBNNotificationsPanel.cpp */; settings = {ATTRIBUTES = (); }; };
+		118AB4CB48CDFD3F8D692B79 /* FBNAnimation.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 13E5D4983469048D801F6862 /* FBNAnimation.cpp */; settings = {ATTRIBUTES = (); }; };
+		2058D1A0303E409C93F7F1E7 /* facebook.messages.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 130582F33361DA9276A07A98 /* facebook.messages.cpp */; settings = {ATTRIBUTES = (); }; };
+		2149F74DBE20BC7AC69F9BEB /* facebook.users.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 93E245EC09ABC16FC8E1EEC3 /* facebook.users.cpp */; settings = {ATTRIBUTES = (); }; };
+		24803E5092F402A3FECEA3BD /* FBNotificationsDialog.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 2D771C26B8EDD45B152F7312 /* FBNotificationsDialog.cpp */; settings = {ATTRIBUTES = (); }; };
+		2AD04A4A2E2B7132496619C8 /* FBNKernelEnums.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = D49B807EA21F1405F92A98EE /* FBNKernelEnums.cpp */; settings = {ATTRIBUTES = (); }; };
+		2BAB8F539DF8AB82803EDB11 /* FBNServices.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 28C2148B3522A540C9B70E2A /* FBNServices.cpp */; settings = {ATTRIBUTES = (); }; };
+		2CD5D0F762E78002B3DFA0EC /* moc_FBNLinkButton.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = F86090202284F5DD09D24E77 /* moc_FBNLinkButton.cpp */; settings = {ATTRIBUTES = (); }; };
+		315DFB2BF2F6657BBA573A87 /* FBNLogger.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 409D31735179768AF11A9DA7 /* FBNLogger.cpp */; settings = {ATTRIBUTES = (); }; };
+		331A6B90A4A92347256DFAF3 /* FBNResourceManager.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 82779E8BCC145349C8087569 /* FBNResourceManager.cpp */; settings = {ATTRIBUTES = (); }; };
+		358AE9E62AC0049E9B31DE79 /* moc_FBCaptionButton.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = CA40F0209196AEDF479717C2 /* moc_FBCaptionButton.cpp */; settings = {ATTRIBUTES = (); }; };
+		3826A0833FCB54E86728C6EF /* QtNetwork.framework in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = B6B9970B86A6C219B0869FE9 /* QtNetwork.framework */; };
+		3B306A2028A758D609353093 /* FBNFadeOutAnimation.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 8C7348D62BCEA3D67C5769C0 /* FBNFadeOutAnimation.cpp */; settings = {ATTRIBUTES = (); }; };
+		3CA0CD0619EDDF9508202162 /* FBNConfigurationPanelMaster.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 9598CAE166841DBDF1E428A8 /* FBNConfigurationPanelMaster.cpp */; settings = {ATTRIBUTES = (); }; };
+		3D9E512F62DCAC6458932D98 /* moc_FBNotification.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = C3DE0BD4C7A8E20D3BCABB5A /* moc_FBNotification.cpp */; settings = {ATTRIBUTES = (); }; };
+		4367770B042901392E3381A1 /* FBLoginNotification.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 8954ABD0286814051324B549 /* FBLoginNotification.cpp */; settings = {ATTRIBUTES = (); }; };
+		46C24A1B98B3F7016C72D709 /* FBNConfigurationPanel.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = FAA86068FD9D1BBA1AF29198 /* FBNConfigurationPanel.cpp */; settings = {ATTRIBUTES = (); }; };
+		4A2379756D731A22F21CF373 /* FBTimer.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 3D24EC19D398F6B0F2323289 /* FBTimer.cpp */; settings = {ATTRIBUTES = (); }; };
+		4B031FF3C90EF4081DB2CD9D /* moc_FBNConfigurationWindow.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 98460B08BE0575EE0D455293 /* moc_FBNConfigurationWindow.cpp */; settings = {ATTRIBUTES = (); }; };
+		4BCBC64A75A06102E6FECBAF /* moc_FBNKernel.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = AF367DBFFB7163D19B60A2AF /* moc_FBNKernel.cpp */; settings = {ATTRIBUTES = (); }; };
+		501667F26B3C1FF6767A7C12 /* QtGui.framework in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = 9B36DA7E32F0304E780E7972 /* QtGui.framework */; };
+		5056F893D85D9C7C028161DB /* FBNEffects_win32.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 034B1441A89BB1694E12468A /* FBNEffects_win32.cpp */; settings = {ATTRIBUTES = (); }; };
+		51D4DBF7CB8537BE86EBD055 /* AppKit.framework in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = 821416211D63F190AAAD016A /* AppKit.framework */; };
+		5354DA8D2B00B6595DE27E85 /* facebook.error.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 08FD6E531B534F05E7D1FD86 /* facebook.error.cpp */; settings = {ATTRIBUTES = (); }; };
+		599BE48C1AC20E8D1B4956E1 /* moc_FBNApplication.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 55E4260CC8856C246EA6F8BB /* moc_FBNApplication.cpp */; settings = {ATTRIBUTES = (); }; };
+		5ACA016382208A0EA8B120ED /* moc_FBNWarningBox.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = E421AAAB94E33821AB367067 /* moc_FBNWarningBox.cpp */; settings = {ATTRIBUTES = (); }; };
+		5B0FE0C2A29281C7AA085DCC /* FBNotificationCloseButton.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = B624B4C20E3D44DD3515FD07 /* FBNotificationCloseButton.cpp */; settings = {ATTRIBUTES = (); }; };
+		5EEAB2FA9EC253EFD5DA7C59 /* libcurl.dylib in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = 631E6FA3D22157674EC3C446 /* libcurl.dylib */; };
+		5F28B28270871C7F64B338FB /* FBNApplication_win32.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 1C11096483103DD3D8241613 /* FBNApplication_win32.cpp */; settings = {ATTRIBUTES = (); }; };
+		62EDCEAD7F80C3634548168F /* moc_FBNConfigurationPanelMaster.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 0570AA36E71A75B2F9DD67C5 /* moc_FBNConfigurationPanelMaster.cpp */; settings = {ATTRIBUTES = (); }; };
+		6CBF2AA0ADDCF1E1E254C9F2 /* moc_FBNUrlBuilder.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = CC738A565B8DC5E4EA1EB93C /* moc_FBNUrlBuilder.cpp */; settings = {ATTRIBUTES = (); }; };
+		7337AD4C86EC77B372F771E0 /* FBNAboutPanel.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 0B37A51AA94575FCBAD40251 /* FBNAboutPanel.cpp */; settings = {ATTRIBUTES = (); }; };
+		77334C04759360838308AE91 /* FBNotificationCaptionBar.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = ED4BC810A8E6CBDF70D8424F /* FBNotificationCaptionBar.cpp */; settings = {ATTRIBUTES = (); }; };
+		7B12BBF41D1456736CF4938F /* FBNFadeInAnimation.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 9E86E967AE3EFEF10A93F63E /* FBNFadeInAnimation.cpp */; settings = {ATTRIBUTES = (); }; };
+		7B65F87B9D9AE0124B1B3EEB /* FBCaptionButton.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 4518C78DFB815019DF4C0C1A /* FBCaptionButton.cpp */; settings = {ATTRIBUTES = (); }; };
+		8161BE8B647D3875D59D00F5 /* FBNUrlBuilder.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 1BFBEC5F575B99869C423CCE /* FBNUrlBuilder.cpp */; settings = {ATTRIBUTES = (); }; };
+		8B3C654D0DD516B9052FA341 /* FBNNotificationSettingsList.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 8F6412E783794BE3CE37189D /* FBNNotificationSettingsList.cpp */; settings = {ATTRIBUTES = (); }; };
+		8DFF9DF96BC6F9EF28E5A781 /* moc_FBNPanelTab.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = EF479BC32FCD5F1036B92141 /* moc_FBNPanelTab.cpp */; settings = {ATTRIBUTES = (); }; };
+		8E3DCD972BDC71CD90CD2124 /* facebook.pokes.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 03B93404BF7D75F18917C2C0 /* facebook.pokes.cpp */; settings = {ATTRIBUTES = (); }; };
+		8F507F5BF3B46563A490629D /* FBMessageNotification.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = BAD4D1370C60251632BF7AFD /* FBMessageNotification.cpp */; settings = {ATTRIBUTES = (); }; };
+		8F5B91CE0355301752D04839 /* facebook.auth.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 060F54700AB4542E25CCC008 /* facebook.auth.cpp */; settings = {ATTRIBUTES = (); }; };
+		913BBE35B9A6E8F7857919F0 /* FBNWarningBox.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 6AFB3A650677D4E4B6D5D563 /* FBNWarningBox.cpp */; settings = {ATTRIBUTES = (); }; };
+		914A01B30982B6546A793B69 /* FBNLinkButton.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = DB86F4FB00D3BED4FB71045D /* FBNLinkButton.cpp */; settings = {ATTRIBUTES = (); }; };
+		9198C35CA2C9BBC380230448 /* FBNKernel.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 95B36CFDEB0252B07B074ED8 /* FBNKernel.cpp */; settings = {ATTRIBUTES = (); }; };
+		97265462201513527ABAD7E6 /* qrc_fbNotify.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = E031310F9E58142C35EB1FC7 /* qrc_fbNotify.cpp */; settings = {ATTRIBUTES = (); }; };
+		991B3487CF345B07B795A861 /* moc_FBNLoginNotification.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 83F615A2E212283333EA1FA8 /* moc_FBNLoginNotification.cpp */; settings = {ATTRIBUTES = (); }; };
+		998FF6EC25C72A4928452890 /* moc_FBNSectionHeading.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 23CB411F549FE90036C6C71A /* moc_FBNSectionHeading.cpp */; settings = {ATTRIBUTES = (); }; };
+		9AE4D56C457C114ACC6ED7DC /* FBNotificationManager.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 66900BF0D686AB25159E4357 /* FBNotificationManager.cpp */; settings = {ATTRIBUTES = (); }; };
+		9BCB577889B90B643032D612 /* moc_FBTimer.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = C33071E196FE307C4A9AC6E5 /* moc_FBTimer.cpp */; settings = {ATTRIBUTES = (); }; };
+		9BD8438E94BE6EC80CC9593D /* FBNCore.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = FB366B338FD5471B4958D9E6 /* FBNCore.cpp */; settings = {ATTRIBUTES = (); }; };
+		9CB9DCDB565996AF9D372441 /* moc_FBNCloseButton.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 3607AC4D2C93EB49D3B93E5A /* moc_FBNCloseButton.cpp */; settings = {ATTRIBUTES = (); }; };
+		9D005DBAB1B3208300F05926 /* moc_FBNLoginButton.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 5DCD572B67BECD5C51DB8987 /* moc_FBNLoginButton.cpp */; settings = {ATTRIBUTES = (); }; };
+		A40F11F7DBCD6B5CEED767DF /* facebook.events.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 464F81CD5D525FE03DB16C96 /* facebook.events.cpp */; settings = {ATTRIBUTES = (); }; };
+		A8B2014C9EE55F874738FC8B /* FBNTrayIcon.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 9E4F5C8B15B12A295D275DB5 /* FBNTrayIcon.cpp */; settings = {ATTRIBUTES = (); }; };
+		AC0AB11D6D8B857B885E3854 /* fbNotify.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = B28B817B72A229723D11E3F3 /* fbNotify.cpp */; settings = {ATTRIBUTES = (); }; };
+		AC0EF8D88E2633F0DEB238BB /* facebook.friends.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = C5E7BCE3DB414F461E6918D9 /* facebook.friends.cpp */; settings = {ATTRIBUTES = (); }; };
+		B28B3C90044EFDB0294A3713 /* moc_FBNTrayIcon.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = A4BFE017619E47763DF41580 /* moc_FBNTrayIcon.cpp */; settings = {ATTRIBUTES = (); }; };
+		B32C31ED6E7C6DD965B52A9D /* moc_FBNLoginPanel.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 633DBF0E4D57A6E23C5162E0 /* moc_FBNLoginPanel.cpp */; settings = {ATTRIBUTES = (); }; };
+		B461F9348643474A45DD6FED /* moc_FBNNotificationWindow.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 1A870E442F2E0E6225CEE366 /* moc_FBNNotificationWindow.cpp */; settings = {ATTRIBUTES = (); }; };
+		B50CFE003441BE876F9CE725 /* moc_FBNConfigurationPanel.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 6F4A22FC9D2AD405E6268764 /* moc_FBNConfigurationPanel.cpp */; settings = {ATTRIBUTES = (); }; };
+		B6AF1D3C50EB4AEF054F811D /* FBNLocalization.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 4FC1238D5A627AC826F8F630 /* FBNLocalization.cpp */; settings = {ATTRIBUTES = (); }; };
+		B93FDEADA1A97EC6AD94A36F /* FBNotification.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 38E2B1C1A06FAF7AD2C865D3 /* FBNotification.cpp */; settings = {ATTRIBUTES = (); }; };
+		B9A04D7430C5D539017FF998 /* FBNotificationThread.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = CD2E3FDAE1FD4784802A87DE /* FBNotificationThread.cpp */; settings = {ATTRIBUTES = (); }; };
+		BB3E29871CD94ADE8BF892B8 /* FBNSettings.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 30A73D5625BFDB32AFF923D2 /* FBNSettings.cpp */; settings = {ATTRIBUTES = (); }; };
+		C00ADF7830AC178EE290BD19 /* FBNSectionHeading.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 1CEB61D866E9B27865B30C9F /* FBNSectionHeading.cpp */; settings = {ATTRIBUTES = (); }; };
+		C1BC2A43B20C7886A72C2097 /* FBNPanelTab.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = D77C2770EAACADB109383067 /* FBNPanelTab.cpp */; settings = {ATTRIBUTES = (); }; };
+		C2643FEB592DBFD1429BE4E1 /* QtXml.framework in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = 8EE92F8FA333C9E415C5B34E /* QtXml.framework */; };
+		C2E2C305CE785F0E96FF3DCB /* FBNNotificationManager.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = ADF5AD5823BF1D75DF178B99 /* FBNNotificationManager.cpp */; settings = {ATTRIBUTES = (); }; };
+		C3D0A9BC0AEF948E0087D319 /* fbNotify.app in Project Copy */ = {isa = PBXBuildFile; fileRef = C3D0A9B90AEF948E0087D319 /* fbNotify.app */; };
+		C4445397A51BCC848C1DF78D /* moc_FBNFadeInAnimation.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = F3B25446DCC05CD212644684 /* moc_FBNFadeInAnimation.cpp */; settings = {ATTRIBUTES = (); }; };
+		C8FD4A1AAA37CF2CA2824CCF /* Carbon.framework in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = DA138F75C9F545CDAE7FB264 /* Carbon.framework */; };
+		C970DEE26C28766E9311E00E /* QuickTime.framework in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = A93DF979D20C91D1A15D9625 /* QuickTime.framework */; };
+		C9E417CC0762E8F58972DE5E /* moc_FBNotificationManager.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = DBC2FE59B799FFC3B93FE468 /* moc_FBNotificationManager.cpp */; settings = {ATTRIBUTES = (); }; };
+		CE49228B0770300D8021B301 /* moc_FBNEffects.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 1F452B31D6305C4E45536AD3 /* moc_FBNEffects.cpp */; settings = {ATTRIBUTES = (); }; };
+		CEBD26FB1B13D6C1B2DCE6CC /* FBNLoginNotification.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = EB64FC5DE8F7CEE26576A4F1 /* FBNLoginNotification.cpp */; settings = {ATTRIBUTES = (); }; };
+		D181AAE2BE3242F3484B33C8 /* moc_FBNCore.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = A24F0B76DAF0408B60773F77 /* moc_FBNCore.cpp */; settings = {ATTRIBUTES = (); }; };
+		D21683D19D971A391E9534A6 /* FBWindow.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = CC56A70A86BC80FF27199C90 /* FBWindow.cpp */; settings = {ATTRIBUTES = (); }; };
+		D474CE8DC81E4B2E681C9D3D /* FBNCloseButton.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = C529C4FE0FC9C29B363FB906 /* FBNCloseButton.cpp */; settings = {ATTRIBUTES = (); }; };
+		D68607FA44DC8176A818D127 /* moc_FBNAnimation.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 3148805CECCD6B4E7F0920DC /* moc_FBNAnimation.cpp */; settings = {ATTRIBUTES = (); }; };
+		D766645201026FEAE498C888 /* md5.c in Build Sources */ = {isa = PBXBuildFile; fileRef = 8EA35BA80248629EF4AE6CBC /* md5.c */; settings = {ATTRIBUTES = (); }; };
+		DA3F57BFFC7D481AECE82F9C /* facebook.wall.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 3F2BA6470BBDF00ADF3E2580 /* facebook.wall.cpp */; settings = {ATTRIBUTES = (); }; };
+		DEAF4A13ECA6536330C6C796 /* FBNConfigurationWindow.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 2860AB0BC0DA5353F521BD8E /* FBNConfigurationWindow.cpp */; settings = {ATTRIBUTES = (); }; };
+		E06F8ACA71954623A053E311 /* FBNKernelStructs.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 26B8D3934298E9F8D2821D2B /* FBNKernelStructs.cpp */; settings = {ATTRIBUTES = (); }; };
+		EAC0BE54AF701D3AF96487CC /* FBWallNotification.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 87CADE74BFC5BA80E7BE9C6A /* FBWallNotification.cpp */; settings = {ATTRIBUTES = (); }; };
+		ECD21230DE264E4D26462A4C /* FBNNotificationWindow.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = AF03386D4AF97969C43E579B /* FBNNotificationWindow.cpp */; settings = {ATTRIBUTES = (); }; };
+		ED68F1C709DF6A0252C170FF /* FBNLoginPanel.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = A084E6DB03B11B2784D4442E /* FBNLoginPanel.cpp */; settings = {ATTRIBUTES = (); }; };
+		EEBA2F56CDC8E351CC5B8483 /* moc_FBNHttp.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = F0123B45C54489768C13D981 /* moc_FBNHttp.cpp */; settings = {ATTRIBUTES = (); }; };
+		F0B77051F2E4B30AE144D43A /* moc_FBNFadeOutAnimation.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 53F505221899869D1EE18FE8 /* moc_FBNFadeOutAnimation.cpp */; settings = {ATTRIBUTES = (); }; };
+		F5F76649471A809EF9D66FEC /* moc_FBNNotificationManager.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 4C844FA25900CDB48D1085FD /* moc_FBNNotificationManager.cpp */; settings = {ATTRIBUTES = (); }; };
+		F9E76E570E10AF14870553A7 /* ApplicationServices.framework in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = 27AE7A480FD6C52FCA80FECD /* ApplicationServices.framework */; };
+		FB8DCC6FEF1857D72328BE2E /* facebook.photos.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = B8A074920932EAA9664DEA94 /* facebook.photos.cpp */; settings = {ATTRIBUTES = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		26DE8D2AEA4B3714B41E931F /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+			};
+			name = Release;
+		};
+		2C641C3335766025DD51B7BD /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F6069D5A5DA8AA28EDB8B3C6 /* Project Copy */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /fbN/src;
+			dstSubfolderSpec = 0;
+			files = (
+				C3D0A9BC0AEF948E0087D319 /* fbNotify.app in Project Copy */,
+			);
+			name = "Project Copy";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		034B1441A89BB1694E12468A /* FBNEffects_win32.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBNEffects_win32.cpp; path = ui/FBNEffects_win32.cpp; sourceTree = "<group>"; };
+		03B93404BF7D75F18917C2C0 /* facebook.pokes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = facebook.pokes.cpp; path = kernel/facebook.pokes.cpp; sourceTree = "<group>"; };
+		0570AA36E71A75B2F9DD67C5 /* moc_FBNConfigurationPanelMaster.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_FBNConfigurationPanelMaster.cpp; sourceTree = "<group>"; };
+		060F54700AB4542E25CCC008 /* facebook.auth.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = facebook.auth.cpp; path = kernel/facebook.auth.cpp; sourceTree = "<group>"; };
+		0862AD1D8623E18142D28636 /* fbNotify.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = fbNotify.icns; path = res/icons/fbNotify.icns; sourceTree = "<group>"; };
+		08FD6E531B534F05E7D1FD86 /* facebook.error.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = facebook.error.cpp; path = kernel/facebook.error.cpp; sourceTree = "<group>"; };
+		0B37A51AA94575FCBAD40251 /* FBNAboutPanel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBNAboutPanel.cpp; path = ui/FBNAboutPanel.cpp; sourceTree = "<group>"; };
+		113F5B6182EA8C7A0D039F7B /* FBNKernelStructs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBNKernelStructs.h; path = kernel/FBNKernelStructs.h; sourceTree = "<group>"; };
+		130582F33361DA9276A07A98 /* facebook.messages.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = facebook.messages.cpp; path = kernel/facebook.messages.cpp; sourceTree = "<group>"; };
+		13E5D4983469048D801F6862 /* FBNAnimation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBNAnimation.cpp; path = ui/FBNAnimation.cpp; sourceTree = "<group>"; };
+		148C9195F3992F632EDE9FD4 /* FBNLinkButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBNLinkButton.h; path = ui/FBNLinkButton.h; sourceTree = "<group>"; };
+		1A27E18C7240C93EFAD7BA97 /* facebook.error.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = facebook.error.h; path = kernel/facebook.error.h; sourceTree = "<group>"; };
+		1A856ED97BFE1B24370FAE74 /* FBNAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBNAnimation.h; path = ui/FBNAnimation.h; sourceTree = "<group>"; };
+		1A870E442F2E0E6225CEE366 /* moc_FBNNotificationWindow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_FBNNotificationWindow.cpp; sourceTree = "<group>"; };
+		1ADA1A301AAE963ADE25CB62 /* facebook.users.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = facebook.users.h; path = kernel/facebook.users.h; sourceTree = "<group>"; };
+		1BFBEC5F575B99869C423CCE /* FBNUrlBuilder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBNUrlBuilder.cpp; path = kernel/FBNUrlBuilder.cpp; sourceTree = "<group>"; };
+		1C11096483103DD3D8241613 /* FBNApplication_win32.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FBNApplication_win32.cpp; sourceTree = "<group>"; };
+		1CEB61D866E9B27865B30C9F /* FBNSectionHeading.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBNSectionHeading.cpp; path = ui/FBNSectionHeading.cpp; sourceTree = "<group>"; };
+		1EC1ECFFF3929AA58A386E90 /* FBNConfigurationPanel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBNConfigurationPanel.h; path = ui/FBNConfigurationPanel.h; sourceTree = "<group>"; };
+		1F452B31D6305C4E45536AD3 /* moc_FBNEffects.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_FBNEffects.cpp; sourceTree = "<group>"; };
+		216B1BE86907385AADC055DD /* FBNAboutPanel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBNAboutPanel.h; path = ui/FBNAboutPanel.h; sourceTree = "<group>"; };
+		239FE872EEF7074149004F0E /* facebook.pokes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = facebook.pokes.h; path = kernel/facebook.pokes.h; sourceTree = "<group>"; };
+		23CB411F549FE90036C6C71A /* moc_FBNSectionHeading.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_FBNSectionHeading.cpp; sourceTree = "<group>"; };
+		25552C70D54B4204DEDD2003 /* md5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = md5.h; path = core/md5.h; sourceTree = "<group>"; };
+		26B8D3934298E9F8D2821D2B /* FBNKernelStructs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBNKernelStructs.cpp; path = kernel/FBNKernelStructs.cpp; sourceTree = "<group>"; };
+		27AE7A480FD6C52FCA80FECD /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
+		2860AB0BC0DA5353F521BD8E /* FBNConfigurationWindow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBNConfigurationWindow.cpp; path = ui/FBNConfigurationWindow.cpp; sourceTree = "<group>"; };
+		28C2148B3522A540C9B70E2A /* FBNServices.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBNServices.cpp; path = core/FBNServices.cpp; sourceTree = "<group>"; };
+		29C4E4A6BD0E4917B191042E /* FBNSectionHeading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBNSectionHeading.h; path = ui/FBNSectionHeading.h; sourceTree = "<group>"; };
+		2B5CD7B31C405635984F81A3 /* FBNNotificationsPanel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBNNotificationsPanel.cpp; path = ui/FBNNotificationsPanel.cpp; sourceTree = "<group>"; };
+		2D771C26B8EDD45B152F7312 /* FBNotificationsDialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBNotificationsDialog.cpp; path = ui/FBNotificationsDialog.cpp; sourceTree = "<group>"; };
+		30A73D5625BFDB32AFF923D2 /* FBNSettings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBNSettings.cpp; path = core/FBNSettings.cpp; sourceTree = "<group>"; };
+		3109C0D41CCCC4B9709374A4 /* FBPokeNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBPokeNotification.h; path = ui/FBPokeNotification.h; sourceTree = "<group>"; };
+		3148805CECCD6B4E7F0920DC /* moc_FBNAnimation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_FBNAnimation.cpp; sourceTree = "<group>"; };
+		316850B0B67E81C9BFA596A8 /* FBNLoginButton.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBNLoginButton.cpp; path = ui/FBNLoginButton.cpp; sourceTree = "<group>"; };
+		335C2B896F9419BCB5886834 /* FBLoginNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBLoginNotification.h; path = ui/FBLoginNotification.h; sourceTree = "<group>"; };
+		34F97EB439F64D11FE7AEC37 /* FBNLocalization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBNLocalization.h; path = core/FBNLocalization.h; sourceTree = "<group>"; };
+		3607AC4D2C93EB49D3B93E5A /* moc_FBNCloseButton.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_FBNCloseButton.cpp; sourceTree = "<group>"; };
+		3724051FF63B110DE234DEFE /* FBNHttp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBNHttp.h; path = kernel/FBNHttp.h; sourceTree = "<group>"; };
+		38E2B1C1A06FAF7AD2C865D3 /* FBNotification.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBNotification.cpp; path = ui/FBNotification.cpp; sourceTree = "<group>"; };
+		3D24EC19D398F6B0F2323289 /* FBTimer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBTimer.cpp; path = ui/FBTimer.cpp; sourceTree = "<group>"; };
+		3DCA6F490167F0D1A74E0DDC /* facebook.auth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = facebook.auth.h; path = kernel/facebook.auth.h; sourceTree = "<group>"; };
+		3F2BA6470BBDF00ADF3E2580 /* facebook.wall.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = facebook.wall.cpp; path = kernel/facebook.wall.cpp; sourceTree = "<group>"; };
+		409D31735179768AF11A9DA7 /* FBNLogger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBNLogger.cpp; path = core/FBNLogger.cpp; sourceTree = "<group>"; };
+		4518C78DFB815019DF4C0C1A /* FBCaptionButton.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBCaptionButton.cpp; path = ui/FBCaptionButton.cpp; sourceTree = "<group>"; };
+		464F81CD5D525FE03DB16C96 /* facebook.events.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = facebook.events.cpp; path = kernel/facebook.events.cpp; sourceTree = "<group>"; };
+		49C39279A490F0B9B92124C3 /* facebook.friends.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = facebook.friends.h; path = kernel/facebook.friends.h; sourceTree = "<group>"; };
+		4C844FA25900CDB48D1085FD /* moc_FBNNotificationManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_FBNNotificationManager.cpp; sourceTree = "<group>"; };
+		4FC1238D5A627AC826F8F630 /* FBNLocalization.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBNLocalization.cpp; path = core/FBNLocalization.cpp; sourceTree = "<group>"; };
+		5270BFCB8CC98DDF90E88B8F /* facebook.events.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = facebook.events.h; path = kernel/facebook.events.h; sourceTree = "<group>"; };
+		531BCFC7402DC33A4B0149D1 /* FBNKernelEnums.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBNKernelEnums.h; path = kernel/FBNKernelEnums.h; sourceTree = "<group>"; };
+		53F505221899869D1EE18FE8 /* moc_FBNFadeOutAnimation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_FBNFadeOutAnimation.cpp; sourceTree = "<group>"; };
+		55E4260CC8856C246EA6F8BB /* moc_FBNApplication.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_FBNApplication.cpp; sourceTree = "<group>"; };
+		582DD4ABB93BFF60B262CC94 /* FBNServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBNServices.h; path = core/FBNServices.h; sourceTree = "<group>"; };
+		5DCD572B67BECD5C51DB8987 /* moc_FBNLoginButton.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_FBNLoginButton.cpp; sourceTree = "<group>"; };
+		5F1EA94D0D99A425616AF595 /* FBNCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBNCore.h; path = core/FBNCore.h; sourceTree = "<group>"; };
+		618AA107709899C88CB4E3D3 /* FBWallNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBWallNotification.h; path = ui/FBWallNotification.h; sourceTree = "<group>"; };
+		631E6FA3D22157674EC3C446 /* libcurl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.dylib; path = /usr/lib/libcurl.3.dylib; sourceTree = "<absolute>"; };
+		633DBF0E4D57A6E23C5162E0 /* moc_FBNLoginPanel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_FBNLoginPanel.cpp; sourceTree = "<group>"; };
+		6683143309B895BDDE7C401C /* FBPokeNotification.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBPokeNotification.cpp; path = ui/FBPokeNotification.cpp; sourceTree = "<group>"; };
+		66900BF0D686AB25159E4357 /* FBNotificationManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBNotificationManager.cpp; path = ui/FBNotificationManager.cpp; sourceTree = "<group>"; };
+		6AFB3A650677D4E4B6D5D563 /* FBNWarningBox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBNWarningBox.cpp; path = ui/FBNWarningBox.cpp; sourceTree = "<group>"; };
+		6E64FC652FC58D354597A9EC /* FBNApplication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBNApplication.h; sourceTree = "<group>"; };
+		6F4A22FC9D2AD405E6268764 /* moc_FBNConfigurationPanel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_FBNConfigurationPanel.cpp; sourceTree = "<group>"; };
+		776C93F1C7D792AB52672C01 /* FBNotificationThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBNotificationThread.h; path = ui/FBNotificationThread.h; sourceTree = "<group>"; };
+		78282720D0C8C160FADAE33F /* FBNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBNotification.h; path = ui/FBNotification.h; sourceTree = "<group>"; };
+		785F8AC5095A8BCC0D6DFBFC /* FBNPanelTab.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBNPanelTab.h; path = ui/FBNPanelTab.h; sourceTree = "<group>"; };
+		7BC2E65A5E699A5E5D834CA2 /* QtCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtCore.framework; path = /Library/Frameworks/QtCore.framework; sourceTree = "<absolute>"; };
+		7CB27EE4521880FE69BF1615 /* fbNotify.qrc */ = {isa = PBXFileReference; lastKnownFileType = text; path = fbNotify.qrc; sourceTree = "<group>"; };
+		7CD6F68D55F1801C64A4B247 /* facebook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = facebook.h; path = kernel/facebook.h; sourceTree = "<group>"; };
+		81EC27C178EDC58703CDE69D /* facebook.photos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = facebook.photos.h; path = kernel/facebook.photos.h; sourceTree = "<group>"; };
+		821416211D63F190AAAD016A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		82528BA0DC494114A0DA001F /* FBNFadeInAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBNFadeInAnimation.h; path = ui/FBNFadeInAnimation.h; sourceTree = "<group>"; };
+		82779E8BCC145349C8087569 /* FBNResourceManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBNResourceManager.cpp; path = ui/FBNResourceManager.cpp; sourceTree = "<group>"; };
+		83E86965B36C4A57795B109E /* FBNotificationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBNotificationManager.h; path = ui/FBNotificationManager.h; sourceTree = "<group>"; };
+		83F615A2E212283333EA1FA8 /* moc_FBNLoginNotification.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_FBNLoginNotification.cpp; sourceTree = "<group>"; };
+		84E7EA8546A892F33F79C78B /* FBWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBWindow.h; path = ui/FBWindow.h; sourceTree = "<group>"; };
+		86A49F52C3DDC84436E56C19 /* FBNEffects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBNEffects.h; path = ui/FBNEffects.h; sourceTree = "<group>"; };
+		87CADE74BFC5BA80E7BE9C6A /* FBWallNotification.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBWallNotification.cpp; path = ui/FBWallNotification.cpp; sourceTree = "<group>"; };
+		8954ABD0286814051324B549 /* FBLoginNotification.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBLoginNotification.cpp; path = ui/FBLoginNotification.cpp; sourceTree = "<group>"; };
+		8C7348D62BCEA3D67C5769C0 /* FBNFadeOutAnimation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBNFadeOutAnimation.cpp; path = ui/FBNFadeOutAnimation.cpp; sourceTree = "<group>"; };
+		8D473B711CC1EA316F0937CC /* FBTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBTimer.h; path = ui/FBTimer.h; sourceTree = "<group>"; };
+		8EA35BA80248629EF4AE6CBC /* md5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = md5.c; path = core/md5.c; sourceTree = "<group>"; };
+		8EE92F8FA333C9E415C5B34E /* QtXml.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtXml.framework; path = /Library/Frameworks/QtXml.framework; sourceTree = "<absolute>"; };
+		8F49D9B9DCE089A1CC980171 /* FBNResourceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBNResourceManager.h; path = ui/FBNResourceManager.h; sourceTree = "<group>"; };
+		8F6412E783794BE3CE37189D /* FBNNotificationSettingsList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBNNotificationSettingsList.cpp; path = ui/FBNNotificationSettingsList.cpp; sourceTree = "<group>"; };
+		92E5516FAC349820BB2A3D65 /* FBNotificationsDialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBNotificationsDialog.h; path = ui/FBNotificationsDialog.h; sourceTree = "<group>"; };
+		93E245EC09ABC16FC8E1EEC3 /* facebook.users.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = facebook.users.cpp; path = kernel/facebook.users.cpp; sourceTree = "<group>"; };
+		9598CAE166841DBDF1E428A8 /* FBNConfigurationPanelMaster.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBNConfigurationPanelMaster.cpp; path = ui/FBNConfigurationPanelMaster.cpp; sourceTree = "<group>"; };
+		95B36CFDEB0252B07B074ED8 /* FBNKernel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBNKernel.cpp; path = kernel/FBNKernel.cpp; sourceTree = "<group>"; };
+		960355BA54D66855C170DD3E /* FBNNotificationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBNNotificationManager.h; path = ui/FBNNotificationManager.h; sourceTree = "<group>"; };
+		976FCF6C8A08C5AF5970D602 /* FBNConfigurationPanelMaster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBNConfigurationPanelMaster.h; path = ui/FBNConfigurationPanelMaster.h; sourceTree = "<group>"; };
+		98460B08BE0575EE0D455293 /* moc_FBNConfigurationWindow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_FBNConfigurationWindow.cpp; sourceTree = "<group>"; };
+		98CF13DCCDE1CDFC2052BC8B /* fbNotify.pro */ = {isa = PBXFileReference; lastKnownFileType = text; path = fbNotify.pro; sourceTree = "<group>"; };
+		9B36DA7E32F0304E780E7972 /* QtGui.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtGui.framework; path = /Library/Frameworks/QtGui.framework; sourceTree = "<absolute>"; };
+		9E4F5C8B15B12A295D275DB5 /* FBNTrayIcon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBNTrayIcon.cpp; path = ui/FBNTrayIcon.cpp; sourceTree = "<group>"; };
+		9E86E967AE3EFEF10A93F63E /* FBNFadeInAnimation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBNFadeInAnimation.cpp; path = ui/FBNFadeInAnimation.cpp; sourceTree = "<group>"; };
+		9F97573BAA8C7A645138B1F8 /* facebook.messages.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = facebook.messages.h; path = kernel/facebook.messages.h; sourceTree = "<group>"; };
+		A084E6DB03B11B2784D4442E /* FBNLoginPanel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBNLoginPanel.cpp; path = ui/FBNLoginPanel.cpp; sourceTree = "<group>"; };
+		A24F0B76DAF0408B60773F77 /* moc_FBNCore.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_FBNCore.cpp; sourceTree = "<group>"; };
+		A4BFE017619E47763DF41580 /* moc_FBNTrayIcon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_FBNTrayIcon.cpp; sourceTree = "<group>"; };
+		A664F0EDD4A42C608AD8DC80 /* FBNKernel_includes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBNKernel_includes.h; path = kernel/FBNKernel_includes.h; sourceTree = "<group>"; };
+		A6EC32521F73E43F6238921E /* FBNConfigurationWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBNConfigurationWindow.h; path = ui/FBNConfigurationWindow.h; sourceTree = "<group>"; };
+		A6F056820F31BAE58F36E5DD /* FBNNotificationWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBNNotificationWindow.h; path = ui/FBNNotificationWindow.h; sourceTree = "<group>"; };
+		A82072FED1C235CB6F9E7A9F /* FBNLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBNLogger.h; path = core/FBNLogger.h; sourceTree = "<group>"; };
+		A93DF979D20C91D1A15D9625 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+		ABB1D0E1B59A8A70E582DC8E /* FBNCloseButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBNCloseButton.h; path = ui/FBNCloseButton.h; sourceTree = "<group>"; };
+		ABF72861506FE4665E2D2320 /* FBNLoginButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBNLoginButton.h; path = ui/FBNLoginButton.h; sourceTree = "<group>"; };
+		ADF5AD5823BF1D75DF178B99 /* FBNNotificationManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBNNotificationManager.cpp; path = ui/FBNNotificationManager.cpp; sourceTree = "<group>"; };
+		AE9745027E1A769E701E888B /* FBNWarningBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBNWarningBox.h; path = ui/FBNWarningBox.h; sourceTree = "<group>"; };
+		AF03386D4AF97969C43E579B /* FBNNotificationWindow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBNNotificationWindow.cpp; path = ui/FBNNotificationWindow.cpp; sourceTree = "<group>"; };
+		AF367DBFFB7163D19B60A2AF /* moc_FBNKernel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_FBNKernel.cpp; sourceTree = "<group>"; };
+		B28B817B72A229723D11E3F3 /* fbNotify.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fbNotify.cpp; sourceTree = "<group>"; };
+		B624B4C20E3D44DD3515FD07 /* FBNotificationCloseButton.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBNotificationCloseButton.cpp; path = ui/FBNotificationCloseButton.cpp; sourceTree = "<group>"; };
+		B68043D3D51B371198FF03D5 /* FBNLoginPanel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBNLoginPanel.h; path = ui/FBNLoginPanel.h; sourceTree = "<group>"; };
+		B6B9970B86A6C219B0869FE9 /* QtNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtNetwork.framework; path = /Library/Frameworks/QtNetwork.framework; sourceTree = "<absolute>"; };
+		B8A074920932EAA9664DEA94 /* facebook.photos.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = facebook.photos.cpp; path = kernel/facebook.photos.cpp; sourceTree = "<group>"; };
+		B9EE998E0BB94A10971A3191 /* FBNHttp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBNHttp.cpp; path = kernel/FBNHttp.cpp; sourceTree = "<group>"; };
+		BAD4D1370C60251632BF7AFD /* FBMessageNotification.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBMessageNotification.cpp; path = ui/FBMessageNotification.cpp; sourceTree = "<group>"; };
+		BBC7E272FA72080A3DE2856C /* FBNNotificationsPanel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBNNotificationsPanel.h; path = ui/FBNNotificationsPanel.h; sourceTree = "<group>"; };
+		C06248718E8F90E6C8A2F1D1 /* FBNApplication.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FBNApplication.cpp; sourceTree = "<group>"; };
+		C315A870AAF1F6A4A7C3E378 /* FBNTrayIcon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBNTrayIcon.h; path = ui/FBNTrayIcon.h; sourceTree = "<group>"; };
+		C33071E196FE307C4A9AC6E5 /* moc_FBTimer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_FBTimer.cpp; sourceTree = "<group>"; };
+		C3D0A9B90AEF948E0087D319 /* fbNotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fbNotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3DE0BD4C7A8E20D3BCABB5A /* moc_FBNotification.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_FBNotification.cpp; sourceTree = "<group>"; };
+		C529C4FE0FC9C29B363FB906 /* FBNCloseButton.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBNCloseButton.cpp; path = ui/FBNCloseButton.cpp; sourceTree = "<group>"; };
+		C5E7BCE3DB414F461E6918D9 /* facebook.friends.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = facebook.friends.cpp; path = kernel/facebook.friends.cpp; sourceTree = "<group>"; };
+		C6CCB656E2C51651E5CE5BF1 /* FBNSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBNSettings.h; path = core/FBNSettings.h; sourceTree = "<group>"; };
+		C86C1291F56D2503CE896357 /* FBCaptionButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBCaptionButton.h; path = ui/FBCaptionButton.h; sourceTree = "<group>"; };
+		C8D5E289453F1D7E13D71946 /* FBNFadeOutAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBNFadeOutAnimation.h; path = ui/FBNFadeOutAnimation.h; sourceTree = "<group>"; };
+		C939919ED178668E2BA4B2DF /* fbNotify.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fbNotify.h; sourceTree = "<group>"; };
+		CA40F0209196AEDF479717C2 /* moc_FBCaptionButton.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_FBCaptionButton.cpp; sourceTree = "<group>"; };
+		CBCFF872A8CBE7BCCFA3D4F9 /* FBNUI_includes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBNUI_includes.h; path = ui/FBNUI_includes.h; sourceTree = "<group>"; };
+		CC56A70A86BC80FF27199C90 /* FBWindow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBWindow.cpp; path = ui/FBWindow.cpp; sourceTree = "<group>"; };
+		CC738A565B8DC5E4EA1EB93C /* moc_FBNUrlBuilder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_FBNUrlBuilder.cpp; sourceTree = "<group>"; };
+		CD2E3FDAE1FD4784802A87DE /* FBNotificationThread.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBNotificationThread.cpp; path = ui/FBNotificationThread.cpp; sourceTree = "<group>"; };
+		CDCFEEE1CCAAC86FD2837144 /* FBNCore_includes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBNCore_includes.h; path = core/FBNCore_includes.h; sourceTree = "<group>"; };
+		D49B807EA21F1405F92A98EE /* FBNKernelEnums.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBNKernelEnums.cpp; path = kernel/FBNKernelEnums.cpp; sourceTree = "<group>"; };
+		D77C2770EAACADB109383067 /* FBNPanelTab.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBNPanelTab.cpp; path = ui/FBNPanelTab.cpp; sourceTree = "<group>"; };
+		D8ADA51EA82D597D9F3A6D87 /* FBNLoginNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBNLoginNotification.h; path = ui/FBNLoginNotification.h; sourceTree = "<group>"; };
+		DA138F75C9F545CDAE7FB264 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		DB86F4FB00D3BED4FB71045D /* FBNLinkButton.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBNLinkButton.cpp; path = ui/FBNLinkButton.cpp; sourceTree = "<group>"; };
+		DBC2FE59B799FFC3B93FE468 /* moc_FBNotificationManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_FBNotificationManager.cpp; sourceTree = "<group>"; };
+		E031310F9E58142C35EB1FC7 /* qrc_fbNotify.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = qrc_fbNotify.cpp; sourceTree = "<group>"; };
+		E248242006322EFE1C19AA19 /* FBNotificationCloseButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBNotificationCloseButton.h; path = ui/FBNotificationCloseButton.h; sourceTree = "<group>"; };
+		E2C1E9E1416CB0852C5BD51F /* FBNKernel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBNKernel.h; path = kernel/FBNKernel.h; sourceTree = "<group>"; };
+		E421AAAB94E33821AB367067 /* moc_FBNWarningBox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_FBNWarningBox.cpp; sourceTree = "<group>"; };
+		EA3762296C7C38F0E8423C0B /* FBNUrlBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBNUrlBuilder.h; path = kernel/FBNUrlBuilder.h; sourceTree = "<group>"; };
+		EB64FC5DE8F7CEE26576A4F1 /* FBNLoginNotification.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBNLoginNotification.cpp; path = ui/FBNLoginNotification.cpp; sourceTree = "<group>"; };
+		ED4BC810A8E6CBDF70D8424F /* FBNotificationCaptionBar.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBNotificationCaptionBar.cpp; path = ui/FBNotificationCaptionBar.cpp; sourceTree = "<group>"; };
+		EE7F70D828924A944CEFF80D /* FBMessageNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBMessageNotification.h; path = ui/FBMessageNotification.h; sourceTree = "<group>"; };
+		EF479BC32FCD5F1036B92141 /* moc_FBNPanelTab.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_FBNPanelTab.cpp; sourceTree = "<group>"; };
+		F0123B45C54489768C13D981 /* moc_FBNHttp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_FBNHttp.cpp; sourceTree = "<group>"; };
+		F3B25446DCC05CD212644684 /* moc_FBNFadeInAnimation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_FBNFadeInAnimation.cpp; sourceTree = "<group>"; };
+		F7225FCA1378DBC011267650 /* FBNNotificationSettingsList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBNNotificationSettingsList.h; path = ui/FBNNotificationSettingsList.h; sourceTree = "<group>"; };
+		F86090202284F5DD09D24E77 /* moc_FBNLinkButton.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_FBNLinkButton.cpp; sourceTree = "<group>"; };
+		F925EDAFFF49CAF6B2444273 /* FBNotificationCaptionBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBNotificationCaptionBar.h; path = ui/FBNotificationCaptionBar.h; sourceTree = "<group>"; };
+		FAA86068FD9D1BBA1AF29198 /* FBNConfigurationPanel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBNConfigurationPanel.cpp; path = ui/FBNConfigurationPanel.cpp; sourceTree = "<group>"; };
+		FB366B338FD5471B4958D9E6 /* FBNCore.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBNCore.cpp; path = core/FBNCore.cpp; sourceTree = "<group>"; };
+		FECF101270420503CEF6708A /* facebook.wall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = facebook.wall.h; path = kernel/facebook.wall.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A1043669E6E5A7426EA502A /* Frameworks & Libraries */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EEAB2FA9EC253EFD5DA7C59 /* libcurl.dylib in Frameworks & Libraries */,
+				C2643FEB592DBFD1429BE4E1 /* QtXml.framework in Frameworks & Libraries */,
+				501667F26B3C1FF6767A7C12 /* QtGui.framework in Frameworks & Libraries */,
+				C8FD4A1AAA37CF2CA2824CCF /* Carbon.framework in Frameworks & Libraries */,
+				C970DEE26C28766E9311E00E /* QuickTime.framework in Frameworks & Libraries */,
+				51D4DBF7CB8537BE86EBD055 /* AppKit.framework in Frameworks & Libraries */,
+				3826A0833FCB54E86728C6EF /* QtNetwork.framework in Frameworks & Libraries */,
+				069D05B0128AE5DC7EE31738 /* QtCore.framework in Frameworks & Libraries */,
+				F9E76E570E10AF14870553A7 /* ApplicationServices.framework in Frameworks & Libraries */,
+			);
+			name = "Frameworks & Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05596AB53D8D521C69802C27 /* fbNotify */ = {
+			isa = PBXGroup;
+			children = (
+				FB61758D0F0FDA4BA867C3D5 /* Sources */,
+				46E892BBB6BB6952967E0561 /* Temporary Sources */,
+				883D7615C4D2DE3FA1218F12 /* Headers */,
+				7CABE3C80E79AD2B307756D2 /* Sources [qmake] */,
+				52C235EBF1C9B07808119459 /* Sources [RCC] */,
+				ED1E82605DD74B483AF3C982 /* External Frameworks and Libraries */,
+				C3D0A9BA0AEF948E0087D319 /* Products */,
+			);
+			name = fbNotify;
+			sourceTree = "<group>";
+		};
+		454CC974649E09D1AB355F4B /* core */ = {
+			isa = PBXGroup;
+			children = (
+				CDCFEEE1CCAAC86FD2837144 /* FBNCore_includes.h */,
+				5F1EA94D0D99A425616AF595 /* FBNCore.h */,
+				34F97EB439F64D11FE7AEC37 /* FBNLocalization.h */,
+				A82072FED1C235CB6F9E7A9F /* FBNLogger.h */,
+				582DD4ABB93BFF60B262CC94 /* FBNServices.h */,
+				C6CCB656E2C51651E5CE5BF1 /* FBNSettings.h */,
+				25552C70D54B4204DEDD2003 /* md5.h */,
+			);
+			name = core;
+			sourceTree = "<group>";
+		};
+		46E892BBB6BB6952967E0561 /* Temporary Sources */ = {
+			isa = PBXGroup;
+			children = (
+				55E4260CC8856C246EA6F8BB /* moc_FBNApplication.cpp */,
+				A24F0B76DAF0408B60773F77 /* moc_FBNCore.cpp */,
+				AF367DBFFB7163D19B60A2AF /* moc_FBNKernel.cpp */,
+				F0123B45C54489768C13D981 /* moc_FBNHttp.cpp */,
+				CC738A565B8DC5E4EA1EB93C /* moc_FBNUrlBuilder.cpp */,
+				4C844FA25900CDB48D1085FD /* moc_FBNNotificationManager.cpp */,
+				1A870E442F2E0E6225CEE366 /* moc_FBNNotificationWindow.cpp */,
+				CA40F0209196AEDF479717C2 /* moc_FBCaptionButton.cpp */,
+				F86090202284F5DD09D24E77 /* moc_FBNLinkButton.cpp */,
+				5DCD572B67BECD5C51DB8987 /* moc_FBNLoginButton.cpp */,
+				3148805CECCD6B4E7F0920DC /* moc_FBNAnimation.cpp */,
+				F3B25446DCC05CD212644684 /* moc_FBNFadeInAnimation.cpp */,
+				53F505221899869D1EE18FE8 /* moc_FBNFadeOutAnimation.cpp */,
+				6F4A22FC9D2AD405E6268764 /* moc_FBNConfigurationPanel.cpp */,
+				0570AA36E71A75B2F9DD67C5 /* moc_FBNConfigurationPanelMaster.cpp */,
+				98460B08BE0575EE0D455293 /* moc_FBNConfigurationWindow.cpp */,
+				633DBF0E4D57A6E23C5162E0 /* moc_FBNLoginPanel.cpp */,
+				C3DE0BD4C7A8E20D3BCABB5A /* moc_FBNotification.cpp */,
+				DBC2FE59B799FFC3B93FE468 /* moc_FBNotificationManager.cpp */,
+				EF479BC32FCD5F1036B92141 /* moc_FBNPanelTab.cpp */,
+				23CB411F549FE90036C6C71A /* moc_FBNSectionHeading.cpp */,
+				A4BFE017619E47763DF41580 /* moc_FBNTrayIcon.cpp */,
+				E421AAAB94E33821AB367067 /* moc_FBNWarningBox.cpp */,
+				C33071E196FE307C4A9AC6E5 /* moc_FBTimer.cpp */,
+				3607AC4D2C93EB49D3B93E5A /* moc_FBNCloseButton.cpp */,
+				1F452B31D6305C4E45536AD3 /* moc_FBNEffects.cpp */,
+				83F615A2E212283333EA1FA8 /* moc_FBNLoginNotification.cpp */,
+				E031310F9E58142C35EB1FC7 /* qrc_fbNotify.cpp */,
+			);
+			name = "Temporary Sources";
+			sourceTree = "<group>";
+		};
+		52C235EBF1C9B07808119459 /* Sources [RCC] */ = {
+			isa = PBXGroup;
+			children = (
+				7CB27EE4521880FE69BF1615 /* fbNotify.qrc */,
+			);
+			name = "Sources [RCC]";
+			sourceTree = "<group>";
+		};
+		532920B9FFAD12742ECBEF30 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				6CE2FF32A464BB0A5C066B61 /* icons */,
+			);
+			name = res;
+			sourceTree = "<group>";
+		};
+		6CE2FF32A464BB0A5C066B61 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				0862AD1D8623E18142D28636 /* fbNotify.icns */,
+			);
+			name = icons;
+			sourceTree = "<group>";
+		};
+		778737913370A9E73438A68F /* kernel */ = {
+			isa = PBXGroup;
+			children = (
+				D49B807EA21F1405F92A98EE /* FBNKernelEnums.cpp */,
+				26B8D3934298E9F8D2821D2B /* FBNKernelStructs.cpp */,
+				060F54700AB4542E25CCC008 /* facebook.auth.cpp */,
+				08FD6E531B534F05E7D1FD86 /* facebook.error.cpp */,
+				464F81CD5D525FE03DB16C96 /* facebook.events.cpp */,
+				C5E7BCE3DB414F461E6918D9 /* facebook.friends.cpp */,
+				130582F33361DA9276A07A98 /* facebook.messages.cpp */,
+				B8A074920932EAA9664DEA94 /* facebook.photos.cpp */,
+				03B93404BF7D75F18917C2C0 /* facebook.pokes.cpp */,
+				93E245EC09ABC16FC8E1EEC3 /* facebook.users.cpp */,
+				3F2BA6470BBDF00ADF3E2580 /* facebook.wall.cpp */,
+				95B36CFDEB0252B07B074ED8 /* FBNKernel.cpp */,
+				B9EE998E0BB94A10971A3191 /* FBNHttp.cpp */,
+				1BFBEC5F575B99869C423CCE /* FBNUrlBuilder.cpp */,
+			);
+			name = kernel;
+			sourceTree = "<group>";
+		};
+		7CABE3C80E79AD2B307756D2 /* Sources [qmake] */ = {
+			isa = PBXGroup;
+			children = (
+				98CF13DCCDE1CDFC2052BC8B /* fbNotify.pro */,
+			);
+			name = "Sources [qmake]";
+			sourceTree = "<group>";
+		};
+		883D7615C4D2DE3FA1218F12 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				C939919ED178668E2BA4B2DF /* fbNotify.h */,
+				6E64FC652FC58D354597A9EC /* FBNApplication.h */,
+				454CC974649E09D1AB355F4B /* core */,
+				DC15BABEE6B66AE887A80FCA /* kernel */,
+				B8CA408A5CE657F3067C3E41 /* ui */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		B8CA408A5CE657F3067C3E41 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				960355BA54D66855C170DD3E /* FBNNotificationManager.h */,
+				A6F056820F31BAE58F36E5DD /* FBNNotificationWindow.h */,
+				C86C1291F56D2503CE896357 /* FBCaptionButton.h */,
+				335C2B896F9419BCB5886834 /* FBLoginNotification.h */,
+				EE7F70D828924A944CEFF80D /* FBMessageNotification.h */,
+				216B1BE86907385AADC055DD /* FBNAboutPanel.h */,
+				148C9195F3992F632EDE9FD4 /* FBNLinkButton.h */,
+				ABF72861506FE4665E2D2320 /* FBNLoginButton.h */,
+				1A856ED97BFE1B24370FAE74 /* FBNAnimation.h */,
+				82528BA0DC494114A0DA001F /* FBNFadeInAnimation.h */,
+				C8D5E289453F1D7E13D71946 /* FBNFadeOutAnimation.h */,
+				1EC1ECFFF3929AA58A386E90 /* FBNConfigurationPanel.h */,
+				976FCF6C8A08C5AF5970D602 /* FBNConfigurationPanelMaster.h */,
+				A6EC32521F73E43F6238921E /* FBNConfigurationWindow.h */,
+				B68043D3D51B371198FF03D5 /* FBNLoginPanel.h */,
+				BBC7E272FA72080A3DE2856C /* FBNNotificationsPanel.h */,
+				78282720D0C8C160FADAE33F /* FBNotification.h */,
+				F925EDAFFF49CAF6B2444273 /* FBNotificationCaptionBar.h */,
+				E248242006322EFE1C19AA19 /* FBNotificationCloseButton.h */,
+				83E86965B36C4A57795B109E /* FBNotificationManager.h */,
+				92E5516FAC349820BB2A3D65 /* FBNotificationsDialog.h */,
+				776C93F1C7D792AB52672C01 /* FBNotificationThread.h */,
+				785F8AC5095A8BCC0D6DFBFC /* FBNPanelTab.h */,
+				8F49D9B9DCE089A1CC980171 /* FBNResourceManager.h */,
+				29C4E4A6BD0E4917B191042E /* FBNSectionHeading.h */,
+				C315A870AAF1F6A4A7C3E378 /* FBNTrayIcon.h */,
+				CBCFF872A8CBE7BCCFA3D4F9 /* FBNUI_includes.h */,
+				AE9745027E1A769E701E888B /* FBNWarningBox.h */,
+				3109C0D41CCCC4B9709374A4 /* FBPokeNotification.h */,
+				8D473B711CC1EA316F0937CC /* FBTimer.h */,
+				618AA107709899C88CB4E3D3 /* FBWallNotification.h */,
+				84E7EA8546A892F33F79C78B /* FBWindow.h */,
+				ABB1D0E1B59A8A70E582DC8E /* FBNCloseButton.h */,
+				86A49F52C3DDC84436E56C19 /* FBNEffects.h */,
+				F7225FCA1378DBC011267650 /* FBNNotificationSettingsList.h */,
+				D8ADA51EA82D597D9F3A6D87 /* FBNLoginNotification.h */,
+			);
+			name = ui;
+			sourceTree = "<group>";
+		};
+		C3D0A9BA0AEF948E0087D319 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3D0A9B90AEF948E0087D319 /* fbNotify.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C571802AE3835EA9AB82123D /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				ADF5AD5823BF1D75DF178B99 /* FBNNotificationManager.cpp */,
+				AF03386D4AF97969C43E579B /* FBNNotificationWindow.cpp */,
+				4518C78DFB815019DF4C0C1A /* FBCaptionButton.cpp */,
+				8954ABD0286814051324B549 /* FBLoginNotification.cpp */,
+				BAD4D1370C60251632BF7AFD /* FBMessageNotification.cpp */,
+				0B37A51AA94575FCBAD40251 /* FBNAboutPanel.cpp */,
+				A084E6DB03B11B2784D4442E /* FBNLoginPanel.cpp */,
+				DB86F4FB00D3BED4FB71045D /* FBNLinkButton.cpp */,
+				316850B0B67E81C9BFA596A8 /* FBNLoginButton.cpp */,
+				13E5D4983469048D801F6862 /* FBNAnimation.cpp */,
+				9E86E967AE3EFEF10A93F63E /* FBNFadeInAnimation.cpp */,
+				8C7348D62BCEA3D67C5769C0 /* FBNFadeOutAnimation.cpp */,
+				FAA86068FD9D1BBA1AF29198 /* FBNConfigurationPanel.cpp */,
+				9598CAE166841DBDF1E428A8 /* FBNConfigurationPanelMaster.cpp */,
+				2860AB0BC0DA5353F521BD8E /* FBNConfigurationWindow.cpp */,
+				2B5CD7B31C405635984F81A3 /* FBNNotificationsPanel.cpp */,
+				38E2B1C1A06FAF7AD2C865D3 /* FBNotification.cpp */,
+				ED4BC810A8E6CBDF70D8424F /* FBNotificationCaptionBar.cpp */,
+				B624B4C20E3D44DD3515FD07 /* FBNotificationCloseButton.cpp */,
+				66900BF0D686AB25159E4357 /* FBNotificationManager.cpp */,
+				2D771C26B8EDD45B152F7312 /* FBNotificationsDialog.cpp */,
+				CD2E3FDAE1FD4784802A87DE /* FBNotificationThread.cpp */,
+				D77C2770EAACADB109383067 /* FBNPanelTab.cpp */,
+				82779E8BCC145349C8087569 /* FBNResourceManager.cpp */,
+				1CEB61D866E9B27865B30C9F /* FBNSectionHeading.cpp */,
+				9E4F5C8B15B12A295D275DB5 /* FBNTrayIcon.cpp */,
+				6AFB3A650677D4E4B6D5D563 /* FBNWarningBox.cpp */,
+				6683143309B895BDDE7C401C /* FBPokeNotification.cpp */,
+				3D24EC19D398F6B0F2323289 /* FBTimer.cpp */,
+				87CADE74BFC5BA80E7BE9C6A /* FBWallNotification.cpp */,
+				CC56A70A86BC80FF27199C90 /* FBWindow.cpp */,
+				C529C4FE0FC9C29B363FB906 /* FBNCloseButton.cpp */,
+				034B1441A89BB1694E12468A /* FBNEffects_win32.cpp */,
+				8F6412E783794BE3CE37189D /* FBNNotificationSettingsList.cpp */,
+				EB64FC5DE8F7CEE26576A4F1 /* FBNLoginNotification.cpp */,
+			);
+			name = ui;
+			sourceTree = "<group>";
+		};
+		DC15BABEE6B66AE887A80FCA /* kernel */ = {
+			isa = PBXGroup;
+			children = (
+				531BCFC7402DC33A4B0149D1 /* FBNKernelEnums.h */,
+				113F5B6182EA8C7A0D039F7B /* FBNKernelStructs.h */,
+				7CD6F68D55F1801C64A4B247 /* facebook.h */,
+				3DCA6F490167F0D1A74E0DDC /* facebook.auth.h */,
+				1A27E18C7240C93EFAD7BA97 /* facebook.error.h */,
+				5270BFCB8CC98DDF90E88B8F /* facebook.events.h */,
+				49C39279A490F0B9B92124C3 /* facebook.friends.h */,
+				9F97573BAA8C7A645138B1F8 /* facebook.messages.h */,
+				81EC27C178EDC58703CDE69D /* facebook.photos.h */,
+				239FE872EEF7074149004F0E /* facebook.pokes.h */,
+				1ADA1A301AAE963ADE25CB62 /* facebook.users.h */,
+				FECF101270420503CEF6708A /* facebook.wall.h */,
+				A664F0EDD4A42C608AD8DC80 /* FBNKernel_includes.h */,
+				E2C1E9E1416CB0852C5BD51F /* FBNKernel.h */,
+				3724051FF63B110DE234DEFE /* FBNHttp.h */,
+				EA3762296C7C38F0E8423C0B /* FBNUrlBuilder.h */,
+			);
+			name = kernel;
+			sourceTree = "<group>";
+		};
+		DD5BB0965A7902704A5202B9 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				FB366B338FD5471B4958D9E6 /* FBNCore.cpp */,
+				4FC1238D5A627AC826F8F630 /* FBNLocalization.cpp */,
+				409D31735179768AF11A9DA7 /* FBNLogger.cpp */,
+				28C2148B3522A540C9B70E2A /* FBNServices.cpp */,
+				30A73D5625BFDB32AFF923D2 /* FBNSettings.cpp */,
+				8EA35BA80248629EF4AE6CBC /* md5.c */,
+			);
+			name = core;
+			sourceTree = "<group>";
+		};
+		ED1E82605DD74B483AF3C982 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				631E6FA3D22157674EC3C446 /* libcurl.dylib */,
+				8EE92F8FA333C9E415C5B34E /* QtXml.framework */,
+				9B36DA7E32F0304E780E7972 /* QtGui.framework */,
+				DA138F75C9F545CDAE7FB264 /* Carbon.framework */,
+				A93DF979D20C91D1A15D9625 /* QuickTime.framework */,
+				821416211D63F190AAAD016A /* AppKit.framework */,
+				B6B9970B86A6C219B0869FE9 /* QtNetwork.framework */,
+				7BC2E65A5E699A5E5D834CA2 /* QtCore.framework */,
+				27AE7A480FD6C52FCA80FECD /* ApplicationServices.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		FB61758D0F0FDA4BA867C3D5 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B28B817B72A229723D11E3F3 /* fbNotify.cpp */,
+				C06248718E8F90E6C8A2F1D1 /* FBNApplication.cpp */,
+				1C11096483103DD3D8241613 /* FBNApplication_win32.cpp */,
+				DD5BB0965A7902704A5202B9 /* core */,
+				778737913370A9E73438A68F /* kernel */,
+				C571802AE3835EA9AB82123D /* ui */,
+				532920B9FFAD12742ECBEF30 /* res */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C31DE2FC358A14F2BF752D8 /* fbNotify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3D0A9DC0AEF94900087D319 /* Build configuration list for PBXNativeTarget "fbNotify" */;
+			buildPhases = (
+				D7BA7D76DAB5DD13389D6332 /* Qt Qmake */,
+				A0A52A2ADF7A1E2A99738674 /* Qt Preprocessors */,
+				F6069D5A5DA8AA28EDB8B3C6 /* Project Copy */,
+				C29B8785722055ED95EF7B57 /* Build Sources */,
+				2A1043669E6E5A7426EA502A /* Frameworks & Libraries */,
+				3787F99312C85FF0073FD7BA /* Bundle Resources */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				ARCHS = (
+					i386,
+					ppc,
+				);
+				BUILD_ROOT = /fbN/src;
+				CC = "";
+				CPLUSPLUS = "";
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/QtCore.framework/Versions/4/Headers,
+					/usr/include/QtCore,
+					/Library/Frameworks/QtNetwork.framework/Versions/4/Headers,
+					/usr/include/QtNetwork,
+					/Library/Frameworks/QtGui.framework/Versions/4/Headers,
+					/usr/include/QtGui,
+					/Library/Frameworks/QtXml.framework/Versions/4/Headers,
+					/usr/include/QtXml,
+					/usr/include,
+					.,
+					.,
+					.,
+					/usr/local/include,
+					/System/Library/Frameworks/CarbonCore.framework/Headers,
+					"/usr/local/Qt4.2/mkspecs/macx-xcode",
+				);
+				INFOPLIST_FILE = Info.plist;
+				LEXFLAGS = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OBJROOT = ./;
+				OPTIMIZATION_CFLAGS = "";
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-F/Library/Frameworks",
+					"-DQT_XML_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-F/Library/Frameworks",
+					"-DQT_XML_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED",
+				);
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-F/Library/Frameworks",
+					"-L/Library/Frameworks",
+					"-lz",
+					"-lm",
+					"-liconv",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = fbNotify;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "";
+				YACCFLAGS = "-d";
+			};
+			dependencies = (
+			);
+			name = fbNotify;
+			productName = fbNotify;
+			productReference = C3D0A9B90AEF948E0087D319 /* fbNotify.app */;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleExecutable</key>
+	<string>\"fbNotify\"</string>
+	<key>CFBundleGetInfoString</key>
+	<string>Created by Qt/QMake</string>
+	<key>CFBundleIconFile</key>
+	<string>fbNotify.icns</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>NOTE</key>
+	<string>Please, do NOT change this file -- It was generated by Qt/QMake.</string>
+</dict>
+</plist>
+";
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91B15E841AA80083484172DE /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2A951308CDB28F104D0A4BD2 /* Build configuration list for PBXProject "fbNotify" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				2C641C3335766025DD51B7BD /* Debug */,
+				26DE8D2AEA4B3714B41E931F /* Release */,
+			);
+			hasScannedForEncodings = 1;
+			mainGroup = 05596AB53D8D521C69802C27 /* fbNotify */;
+			productRefGroup = C3D0A9BA0AEF948E0087D319 /* Products */;
+			projectDirPath = "";
+			targets = (
+				5C31DE2FC358A14F2BF752D8 /* fbNotify */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3787F99312C85FF0073FD7BA /* Bundle Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03BD93379CC6735DEDFB4800 /* fbNotify.icns in Bundle Resources */,
+			);
+			name = "Bundle Resources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A0A52A2ADF7A1E2A99738674 /* Qt Preprocessors */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Preprocessors";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C \"/fbN/src\" -f \"fbNotify.xcodeproj/qt_preprocess.mak\"";
+		};
+		D7BA7D76DAB5DD13389D6332 /* Qt Qmake */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Qmake";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C \"/fbN/src\" -f \"fbNotify.xcodeproj/qt_makeqmake.mak\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C29B8785722055ED95EF7B57 /* Build Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0AB11D6D8B857B885E3854 /* fbNotify.cpp in Build Sources */,
+				0622D4BA65364F995909CA1E /* FBNApplication.cpp in Build Sources */,
+				5F28B28270871C7F64B338FB /* FBNApplication_win32.cpp in Build Sources */,
+				9BD8438E94BE6EC80CC9593D /* FBNCore.cpp in Build Sources */,
+				B6AF1D3C50EB4AEF054F811D /* FBNLocalization.cpp in Build Sources */,
+				315DFB2BF2F6657BBA573A87 /* FBNLogger.cpp in Build Sources */,
+				2BAB8F539DF8AB82803EDB11 /* FBNServices.cpp in Build Sources */,
+				BB3E29871CD94ADE8BF892B8 /* FBNSettings.cpp in Build Sources */,
+				D766645201026FEAE498C888 /* md5.c in Build Sources */,
+				2AD04A4A2E2B7132496619C8 /* FBNKernelEnums.cpp in Build Sources */,
+				E06F8ACA71954623A053E311 /* FBNKernelStructs.cpp in Build Sources */,
+				8F5B91CE0355301752D04839 /* facebook.auth.cpp in Build Sources */,
+				5354DA8D2B00B6595DE27E85 /* facebook.error.cpp in Build Sources */,
+				A40F11F7DBCD6B5CEED767DF /* facebook.events.cpp in Build Sources */,
+				AC0EF8D88E2633F0DEB238BB /* facebook.friends.cpp in Build Sources */,
+				2058D1A0303E409C93F7F1E7 /* facebook.messages.cpp in Build Sources */,
+				FB8DCC6FEF1857D72328BE2E /* facebook.photos.cpp in Build Sources */,
+				8E3DCD972BDC71CD90CD2124 /* facebook.pokes.cpp in Build Sources */,
+				2149F74DBE20BC7AC69F9BEB /* facebook.users.cpp in Build Sources */,
+				DA3F57BFFC7D481AECE82F9C /* facebook.wall.cpp in Build Sources */,
+				9198C35CA2C9BBC380230448 /* FBNKernel.cpp in Build Sources */,
+				097039E72466EA41BCFD245D /* FBNHttp.cpp in Build Sources */,
+				8161BE8B647D3875D59D00F5 /* FBNUrlBuilder.cpp in Build Sources */,
+				C2E2C305CE785F0E96FF3DCB /* FBNNotificationManager.cpp in Build Sources */,
+				ECD21230DE264E4D26462A4C /* FBNNotificationWindow.cpp in Build Sources */,
+				7B65F87B9D9AE0124B1B3EEB /* FBCaptionButton.cpp in Build Sources */,
+				4367770B042901392E3381A1 /* FBLoginNotification.cpp in Build Sources */,
+				8F507F5BF3B46563A490629D /* FBMessageNotification.cpp in Build Sources */,
+				7337AD4C86EC77B372F771E0 /* FBNAboutPanel.cpp in Build Sources */,
+				ED68F1C709DF6A0252C170FF /* FBNLoginPanel.cpp in Build Sources */,
+				914A01B30982B6546A793B69 /* FBNLinkButton.cpp in Build Sources */,
+				01613D64056567C0B5E1654F /* FBNLoginButton.cpp in Build Sources */,
+				118AB4CB48CDFD3F8D692B79 /* FBNAnimation.cpp in Build Sources */,
+				7B12BBF41D1456736CF4938F /* FBNFadeInAnimation.cpp in Build Sources */,
+				3B306A2028A758D609353093 /* FBNFadeOutAnimation.cpp in Build Sources */,
+				46C24A1B98B3F7016C72D709 /* FBNConfigurationPanel.cpp in Build Sources */,
+				3CA0CD0619EDDF9508202162 /* FBNConfigurationPanelMaster.cpp in Build Sources */,
+				DEAF4A13ECA6536330C6C796 /* FBNConfigurationWindow.cpp in Build Sources */,
+				0A1ECC9F5B3CF26204140EC0 /* FBNNotificationsPanel.cpp in Build Sources */,
+				B93FDEADA1A97EC6AD94A36F /* FBNotification.cpp in Build Sources */,
+				77334C04759360838308AE91 /* FBNotificationCaptionBar.cpp in Build Sources */,
+				5B0FE0C2A29281C7AA085DCC /* FBNotificationCloseButton.cpp in Build Sources */,
+				9AE4D56C457C114ACC6ED7DC /* FBNotificationManager.cpp in Build Sources */,
+				24803E5092F402A3FECEA3BD /* FBNotificationsDialog.cpp in Build Sources */,
+				B9A04D7430C5D539017FF998 /* FBNotificationThread.cpp in Build Sources */,
+				C1BC2A43B20C7886A72C2097 /* FBNPanelTab.cpp in Build Sources */,
+				331A6B90A4A92347256DFAF3 /* FBNResourceManager.cpp in Build Sources */,
+				C00ADF7830AC178EE290BD19 /* FBNSectionHeading.cpp in Build Sources */,
+				A8B2014C9EE55F874738FC8B /* FBNTrayIcon.cpp in Build Sources */,
+				913BBE35B9A6E8F7857919F0 /* FBNWarningBox.cpp in Build Sources */,
+				02871AEC81401EE46E755535 /* FBPokeNotification.cpp in Build Sources */,
+				4A2379756D731A22F21CF373 /* FBTimer.cpp in Build Sources */,
+				EAC0BE54AF701D3AF96487CC /* FBWallNotification.cpp in Build Sources */,
+				D21683D19D971A391E9534A6 /* FBWindow.cpp in Build Sources */,
+				D474CE8DC81E4B2E681C9D3D /* FBNCloseButton.cpp in Build Sources */,
+				5056F893D85D9C7C028161DB /* FBNEffects_win32.cpp in Build Sources */,
+				8B3C654D0DD516B9052FA341 /* FBNNotificationSettingsList.cpp in Build Sources */,
+				CEBD26FB1B13D6C1B2DCE6CC /* FBNLoginNotification.cpp in Build Sources */,
+				599BE48C1AC20E8D1B4956E1 /* moc_FBNApplication.cpp in Build Sources */,
+				D181AAE2BE3242F3484B33C8 /* moc_FBNCore.cpp in Build Sources */,
+				4BCBC64A75A06102E6FECBAF /* moc_FBNKernel.cpp in Build Sources */,
+				EEBA2F56CDC8E351CC5B8483 /* moc_FBNHttp.cpp in Build Sources */,
+				6CBF2AA0ADDCF1E1E254C9F2 /* moc_FBNUrlBuilder.cpp in Build Sources */,
+				F5F76649471A809EF9D66FEC /* moc_FBNNotificationManager.cpp in Build Sources */,
+				B461F9348643474A45DD6FED /* moc_FBNNotificationWindow.cpp in Build Sources */,
+				358AE9E62AC0049E9B31DE79 /* moc_FBCaptionButton.cpp in Build Sources */,
+				2CD5D0F762E78002B3DFA0EC /* moc_FBNLinkButton.cpp in Build Sources */,
+				9D005DBAB1B3208300F05926 /* moc_FBNLoginButton.cpp in Build Sources */,
+				D68607FA44DC8176A818D127 /* moc_FBNAnimation.cpp in Build Sources */,
+				C4445397A51BCC848C1DF78D /* moc_FBNFadeInAnimation.cpp in Build Sources */,
+				F0B77051F2E4B30AE144D43A /* moc_FBNFadeOutAnimation.cpp in Build Sources */,
+				B50CFE003441BE876F9CE725 /* moc_FBNConfigurationPanel.cpp in Build Sources */,
+				62EDCEAD7F80C3634548168F /* moc_FBNConfigurationPanelMaster.cpp in Build Sources */,
+				4B031FF3C90EF4081DB2CD9D /* moc_FBNConfigurationWindow.cpp in Build Sources */,
+				B32C31ED6E7C6DD965B52A9D /* moc_FBNLoginPanel.cpp in Build Sources */,
+				3D9E512F62DCAC6458932D98 /* moc_FBNotification.cpp in Build Sources */,
+				C9E417CC0762E8F58972DE5E /* moc_FBNotificationManager.cpp in Build Sources */,
+				8DFF9DF96BC6F9EF28E5A781 /* moc_FBNPanelTab.cpp in Build Sources */,
+				998FF6EC25C72A4928452890 /* moc_FBNSectionHeading.cpp in Build Sources */,
+				B28B3C90044EFDB0294A3713 /* moc_FBNTrayIcon.cpp in Build Sources */,
+				5ACA016382208A0EA8B120ED /* moc_FBNWarningBox.cpp in Build Sources */,
+				9BCB577889B90B643032D612 /* moc_FBTimer.cpp in Build Sources */,
+				9CB9DCDB565996AF9D372441 /* moc_FBNCloseButton.cpp in Build Sources */,
+				CE49228B0770300D8021B301 /* moc_FBNEffects.cpp in Build Sources */,
+				991B3487CF345B07B795A861 /* moc_FBNLoginNotification.cpp in Build Sources */,
+				97265462201513527ABAD7E6 /* qrc_fbNotify.cpp in Build Sources */,
+			);
+			name = "Build Sources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8DB1DD96F65B1BF1FFC506E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+			};
+			name = Debug;
+		};
+		95E1EB2E5DDD587BE5B3E548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				INFOPLIST_FILE = Info.plist;
+			};
+			name = Release;
+		};
+		C3D0A9DD0AEF94900087D319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					ppc,
+				);
+				BUILD_ROOT = /fbN/src;
+				CC = "";
+				COPY_PHASE_STRIP = NO;
+				CPLUSPLUS = "";
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/QtCore.framework/Versions/4/Headers,
+					/usr/include/QtCore,
+					/Library/Frameworks/QtNetwork.framework/Versions/4/Headers,
+					/usr/include/QtNetwork,
+					/Library/Frameworks/QtGui.framework/Versions/4/Headers,
+					/usr/include/QtGui,
+					/Library/Frameworks/QtXml.framework/Versions/4/Headers,
+					/usr/include/QtXml,
+					/usr/include,
+					.,
+					.,
+					.,
+					/usr/local/include,
+					/System/Library/Frameworks/CarbonCore.framework/Headers,
+					"/usr/local/Qt4.2/mkspecs/macx-xcode",
+				);
+				INFOPLIST_FILE = Info.plist;
+				LEXFLAGS = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OBJROOT = ./;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-F/Library/Frameworks",
+					"-DQT_XML_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-F/Library/Frameworks",
+					"-DQT_XML_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED",
+				);
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-F/Library/Frameworks",
+					"-L/Library/Frameworks",
+					"-lz",
+					"-lm",
+					"-liconv",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = fbNotify;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "";
+				YACCFLAGS = "-d";
+			};
+			name = Debug;
+		};
+		C3D0A9DE0AEF94900087D319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					ppc,
+				);
+				BUILD_ROOT = /fbN/src;
+				CC = "";
+				COPY_PHASE_STRIP = YES;
+				CPLUSPLUS = "";
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/QtCore.framework/Versions/4/Headers,
+					/usr/include/QtCore,
+					/Library/Frameworks/QtNetwork.framework/Versions/4/Headers,
+					/usr/include/QtNetwork,
+					/Library/Frameworks/QtGui.framework/Versions/4/Headers,
+					/usr/include/QtGui,
+					/Library/Frameworks/QtXml.framework/Versions/4/Headers,
+					/usr/include/QtXml,
+					/usr/include,
+					.,
+					.,
+					.,
+					/usr/local/include,
+					/System/Library/Frameworks/CarbonCore.framework/Headers,
+					"/usr/local/Qt4.2/mkspecs/macx-xcode",
+				);
+				INFOPLIST_FILE = Info.plist;
+				LEXFLAGS = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OBJROOT = ./;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-F/Library/Frameworks",
+					"-DQT_XML_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-F/Library/Frameworks",
+					"-DQT_XML_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED",
+				);
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-F/Library/Frameworks",
+					"-L/Library/Frameworks",
+					"-lz",
+					"-lm",
+					"-liconv",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = fbNotify;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "";
+				YACCFLAGS = "-d";
+			};
+			name = Release;
+		};
+		C3D0A9DF0AEF94900087D319 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					ppc,
+				);
+				BUILD_ROOT = /fbN/src;
+				CC = "";
+				CPLUSPLUS = "";
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/QtCore.framework/Versions/4/Headers,
+					/usr/include/QtCore,
+					/Library/Frameworks/QtNetwork.framework/Versions/4/Headers,
+					/usr/include/QtNetwork,
+					/Library/Frameworks/QtGui.framework/Versions/4/Headers,
+					/usr/include/QtGui,
+					/Library/Frameworks/QtXml.framework/Versions/4/Headers,
+					/usr/include/QtXml,
+					/usr/include,
+					.,
+					.,
+					.,
+					/usr/local/include,
+					/System/Library/Frameworks/CarbonCore.framework/Headers,
+					"/usr/local/Qt4.2/mkspecs/macx-xcode",
+				);
+				INFOPLIST_FILE = Info.plist;
+				LEXFLAGS = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OBJROOT = ./;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-F/Library/Frameworks",
+					"-DQT_XML_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-F/Library/Frameworks",
+					"-DQT_XML_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED",
+				);
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-F/Library/Frameworks",
+					"-L/Library/Frameworks",
+					"-lz",
+					"-lm",
+					"-liconv",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = fbNotify;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "";
+				YACCFLAGS = "-d";
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A951308CDB28F104D0A4BD2 /* Build configuration list for PBXProject "fbNotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DB1DD96F65B1BF1FFC506E0 /* Debug */,
+				95E1EB2E5DDD587BE5B3E548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3D0A9DC0AEF94900087D319 /* Build configuration list for PBXNativeTarget "fbNotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3D0A9DD0AEF94900087D319 /* Debug */,
+				C3D0A9DE0AEF94900087D319 /* Release */,
+				C3D0A9DF0AEF94900087D319 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91B15E841AA80083484172DE /* Project object */;
+}

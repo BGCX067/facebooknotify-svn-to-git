@@ -1,0 +1,23 @@
+facebook::WallCount postbackHttpWallCount(QString response)
+{
+	try
+	{
+		wallCountObject = wallObject.getWallCount(response);
+		// signal success
+	}
+	catch (QString xml)
+	{
+		try
+		{
+			facebook::ErrorData errorData;
+			errorData = errorObject.getError(xml);
+			//signal error parsing was a success
+			return 0;
+		}
+		catch (bool val)
+		{
+			//state/signal that it completely blew up
+		}
+	}
+	return wallCountObject;
+}

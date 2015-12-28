@@ -1,0 +1,75 @@
+GUI CLASSES:
+------------
+
+class FBNotification
+   - base class for all notification windows.
+     its a small window that knows how to pop
+	 itself up in the corner of the screen
+
+	 
+class FBMessageNotification
+   - specialized notification window for showing
+     unread / new messages (i.e. '4 new messages')
+	 
+	 
+class FBPokeNotification
+   - specialized notification window for showing
+     unviewed / new pokes (i.e. '4 new pokes')
+	 
+	 
+class FBWallNotification
+   - specialized notification window for showing
+     new wall messages (i.e. '4 new wall postings')
+	
+	
+class FBPhotoCommentNotification
+   - specialized notification window for showing
+     new photo comments (i.e. '3 new photo comments')
+	
+	
+class FBFriendPhotoUpdateNotification  
+   - specialized notification window for showing
+     a friend who updated their photos (including
+	 a pic of that friend)
+
+
+class FBFriendAlbumUpdateNotification
+   - specialized notification window for showing
+     a friend who updated their albums (including
+	 a pic of that friend)
+	
+(any other type of notification we can think of)
+	
+class FBConfigurationWindow
+   - the configuration dialog configures kernel 
+     parameters, notification options, login info, etc.
+
+
+NON GUI CLASSES:
+----------------
+
+class FBNotifyKernel
+   - the kernel of the application which holds the
+     facebook user's current state information, a thread
+	 that constantly polls the facebook API and checks 
+	 against the current state for any changes (and pops
+	 up the notification UIs accordingly), and holds 
+	 other parameters such as polling rate, what to notify
+	 about, etc
+
+class FBServiceManager
+   - class responsible for talking to our web server 'middleman'
+     for service updates, logging, etc.
+
+class FBNotificationThread
+   - thread that harasses the facebook API with constant calls
+     (http requests).  This is where all the fun API programming
+	 should go. 
+	 
+	 
+class FBUserInformation
+   - class that represents the facebook user's current 'state'.
+     The notification thread polls the facebook API and checks 
+	 against an instance of this class (which is stored in the
+	 kernel).  If a difference is found, the notification thread
+	 pops up a notification box.

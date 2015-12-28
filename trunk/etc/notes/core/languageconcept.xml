@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fbnotify_localization_data>
+	<name>English</name>
+	<version>1.0</version>
+	<data>
+		<string key="product_name">fbNotify</string>
+	</data>
+</fbnotify_localization_data>

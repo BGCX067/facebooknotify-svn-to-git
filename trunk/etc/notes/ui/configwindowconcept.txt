@@ -1,0 +1,10 @@
+FBNConfigurationWindow
+^
+FBNConfigurationPanelManager (saveAll(); loadAll(); loadAllToDefault();)
+^
+FBNConfigurationPanel ( save(); load(); loadDefault(); text(); enabled(); setEnabled(); )
+	* FBNLoginPanel
+	* FBNNotificationPanel
+	* FBNAboutPanel
+	* etc.
+	

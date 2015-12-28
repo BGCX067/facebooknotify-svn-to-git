@@ -1,0 +1,75 @@
+Here are the results from our meeting today. Feel free to look over it.
+
+For anyone else who was at the meeting, please feel free to correct me on any of this information! Thanks!
+
+Goals
+Provide Facebook users with a desktop application that notifies them of:
+
+    * New Pokes
+    * New Wall Messages
+    * New Messages
+    * And More
+
+Application Layers
+
+1. Kernel Layer
+
+Idea: Implement a pure abstraction of the Facebook API. The Kernel handles the raw data coming from the Facebook API and pushes it up to the Data Manipulation layer. Allows for easier development in the event that Facebook API changes.
+
+Components:
+
+    * Thread: Runs in the background and polls the Facebook API whenever the Data Manipulation layer tells it to do so.
+    * Data Structure: Holds user information for the Data Manipulation layer. 
+
+Kernel Layer Team:
+
+    * endless void 94
+    * jpgoel
+    * jdgivens
+
+2. Data Manipulation Layer
+
+Idea: Interpets the data from the Kernel and determines what data to send to the User Interface layer. The Data Manipulation layer and User Interface layer are seperate in such a way that you could add a text based user interface without changing code in this layer.
+
+Components
+
+    * Update Engine
+    * [Future Release] Photo Album Update Notification: Would have to make an excessive number of HTTP requests to find photo album updates for each friend. Still figuring out a work-around for this.
+    * Timer: Frequently checks the Kernel for new updates.
+    * Configuration: Allows user to change certain settings such as what kinds of notifications to show.
+
+Data Manipulation Team:
+
+    * Chameleon
+    * TheTrueAPlus (Assisting)
+    * Steve
+
+3. User Interface Layer
+
+Idea: Provide a GUI interface for data provided by the Data Manipulation layer.
+
+Components
+
+    * Sound Effects
+    * Different Animations (Examples: Fading and Scrolling Effects)
+    * [Future Release] Themes
+
+User Interface Team:
+
+    * TheTrueAPlus
+    * Alex
+    * thesoccerstar2k3
+
+Development Decisions
+We have decided to implement this program using C++/QT. We concluded that it was the best choice for acheiving small file sizes and overhead as well as maximum cross-OS compatibility. QT also contains libraries for sockets and XML. It is also free for open source projects under the GPL.
+
+Other Notes
+
+    * Networking functionality needs to be thread-safe.
+    * Class List (Draft): http://facebooknotify.googlecode.com..._classlist.txt
+    * UML diagrams will be provided.
+    * Program will be multithreaded.
+    * Remember that there is a Google repository (see thread for that).
+    * Debating on whether the Kernel should be a static or dynamic class in another thread.
+    * Management Team?
+    * Website/Documentation Team?

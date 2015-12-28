@@ -1,0 +1,55 @@
+Kernel Overview (Tentative)
+
+This is just ideas I have, feel free to shoot them down if you have any suggestions or thoughts.
+
+
+Each function in the kernel will correspond to a function call to the Facebook API.  Since all the kernel does is return data, there is virtually no processing required.  We don't need to determine whether or not a new notification should be displayed, that is the datamanip layer's job.  
+
+So:
+
+Classes needed:
+
+*****Count*****
+   This class will encompass a simple count of objects.  They will most of the time be messages, wall writes, or pokes, but they can contain anything.
+
+Fields:
+   int value; //the main value
+   int type;
+      //type can have the following values:
+        0 - MESSAGE
+        1 - WALL WRITES
+        2 - POKES
+        3 - FRIENDS
+      //more types eventually if we need them, it will be as easy as adding a const variable.
+
+
+*****FriendList*****
+   This will be a list (like an ArrayList) of a group of Friends.  Maybe this will be a subclass of a doubly linked list? or an Array?
+
+Fields:
+   int length;
+   //MORE HERE EVENTUALLY
+
+(will either contain an array field or be a doubly linked list with traditional next and previous pointers, as well as a head and tail pointer.)
+
+*****Friend*****
+   This will represent a friend (duh).  Able to be stored in a FriendList or passed as parameters to the areFriends() function.
+
+Fields:
+   string id; 
+   string name;
+   
+
+********************
+
+Functions needed in the Kernel class:
+
+public Count getMessageCount();
+public Count getUnreadMessageCount();
+public FriendList getFriendList();
+public boolean areFriends(Friend f1, Friend f2);
+public Count getNumPokes();
+public Count getWallCount();
+
+
+

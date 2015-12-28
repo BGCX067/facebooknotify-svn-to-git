@@ -1,0 +1,96 @@
+Kernel Overview (Tentative)
+
+You gave me the option of shooting down your ideas, and I figured I'd take you
+up on that!
+
+Each function in the kernel will correspond to a function call to the Facebook
+API.  Since all the kernel does is return data, there is virtually no
+processing required.  We don't need to determine whether or not a new
+notification should be displayed, that is the datamanip layer's job.  
+
+Functions and classes will be defined by structure, rather than function.
+Everything that has to do with "pokes" will be under a "poke class".
+
+Therefore:
+
+class FacebookRestClient { // Main class. Not static. Big umbrella class.
+	private str api_key
+	private str public_key
+	private str private_key
+	
+	private str session_key
+
+	public FacebookRestClient (_api_key, _public_key, _private_key) {
+		// Initialize these three values
+	}
+
+	public str sig { // Make the signature required for method cals
+		// Take in all of the parameters and create the sig
+	}
+
+	public str makeRequest {
+		// This takes all of the parameters and actually makes the
+		// request. Returns XML back to the function, and then the
+		// function can parse it.
+	}
+
+	public static class auth { // Take care of authentication stuff
+		public bool createToken { //Create the auth token
+			// Method stub
+			// Return false on error
+		}
+		public bool getSession {
+			// Get the session key and stick it in session_key.
+			// Return false on error.
+		}
+	}
+
+	
+	public static class events { // Event-related stuff
+		public str[] getInWindow {
+			// Get events in a time window
+		}
+	}
+
+	public static class friends { // Friend stuff
+		public getTyped {
+			// Return ID numbers of friends.
+			// Results based on "how you know" the friend
+		}
+		public get {
+			// Returns ID numbers of ALL friends
+		}
+		public bool areFriends {
+			// are the two users "friends" with each other?
+		}	
+	}
+
+	public static class messages { // Message-related stuff
+		int getCount {
+			// Returns total and unread messages
+		}
+	}
+
+	public static class photos {
+		// i'm getting lazy. Methods:
+		str[] getAlbums;
+		int getCommentCount;
+		str getFromAlbum;
+		str getOfUser;
+		int getcount;
+	}
+
+	public static class pokes {
+		int getCount;
+	}
+
+	public static class users {
+		str[] getInfo
+	}
+	public static class wall {
+		int getCount()
+	}
+}
+
+
+

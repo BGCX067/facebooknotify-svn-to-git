@@ -1,0 +1,60 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/buttons">
+        <file alias="login">res/login.png</file>
+        <file alias="close">res/x_to_hide.png</file>
+        <file alias="closeHover">res/x_to_hide_hover.png</file>
+	<file alias="aboutPanel">res/fbnlogo_about.png</file>
+    </qresource>
+    <qresource prefix="/notificationIcons">
+	<file alias="birthdays">res/notifications/birthday.png</file>
+        <file alias="events">res/notifications/event.png</file>
+        <file alias="messages">res/notifications/message.png</file>
+        <file alias="pokes">res/notifications/poke.png</file>
+    </qresource>
+    <qresource prefix="/smallIcons">
+	<file alias="ad">res/newicons/ad.png</file>
+	<file alias="affiliation">res/newicons/affiliation.png</file>
+	<file alias="birthday">res/newicons/birthday.png</file>
+	<file alias="blog">res/newicons/blog.png</file>
+	<file alias="discussion">res/newicons/discussion.png</file>
+	<file alias="election">res/newicons/election.png</file>
+	<file alias="event">res/newicons/event.png</file>
+	<file alias="friend">res/newicons/friend.png</file>
+	<file alias="friend_finder">res/newicons/friend_finder.png</file>
+	<file alias="friend_gal">res/newicons/friend_gal.png</file>
+	<file alias="friend_guy">res/newicons/friend_guy.png</file>
+	<file alias="group">res/newicons/group.png</file>
+	<file alias="hidden">res/newicons/hidden.png</file>
+	<file alias="link">res/newicons/link.png</file>
+	<file alias="mail_request">res/newicons/mail_request.png</file>
+	<file alias="mobile">res/newicons/mobile.png</file>
+	<file alias="mobile_photo">res/newicons/mobile_photo.png</file>
+	<file alias="music">res/newicons/music.png</file>
+	<file alias="new_feature">res/newicons/new_feature.png</file>
+	<file alias="news">res/newicons/news.png</file>
+	<file alias="note">res/newicons/note.png</file>
+	<file alias="photo">res/newicons/photo.png</file>
+	<file alias="poke">res/newicons/poke.png</file>
+	<file alias="relationship">res/newicons/relationship.png</file>
+	<file alias="relationship_remove">res/newicons/relationship_remove.png</file>
+	<file alias="video">res/newicons/video.png</file>
+	<file alias="wall_post">res/newicons/wall_post.png</file>
+    </qresource>
+    <qresource prefix="/trayIcons">
+	<!-- The tray icons for animation-->
+	<file alias="01">res/trayicons/fbnconcept_f01.png</file>
+	<file alias="02">res/trayicons/fbnconcept_f02.png</file>
+	<file alias="03">res/trayicons/fbnconcept_f03.png</file>
+	<file alias="04">res/trayicons/fbnconcept_f04.png</file>
+	<file alias="05">res/trayicons/fbnconcept_f05.png</file>
+	<file alias="06">res/trayicons/fbnconcept_f06.png</file>
+	<file alias="07">res/trayicons/fbnconcept_f07.png</file>
+	<file alias="08">res/trayicons/fbnconcept_f08.png</file>
+	<file alias="09">res/trayicons/fbnconcept_f09.png</file>
+	<file alias="10">res/trayicons/fbnconcept_f10.png</file>
+	<file alias="11">res/trayicons/fbnconcept_f11.png</file>
+	<file alias="12">res/trayicons/fbnconcept_f12.png</file>
+	<file alias="13">res/trayicons/fbnconcept_f13.png</file>
+	<file alias="14">res/trayicons/fbnconcept_f14.png</file>
+    </qresource>
+</RCC>

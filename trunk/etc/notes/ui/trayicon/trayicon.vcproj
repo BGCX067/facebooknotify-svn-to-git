@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding = "Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.10"
+	Name="trayicon"
+	ProjectGUID="{0489E491-8426-38DC-83CA-F899580AAEFD}">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="."
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			ConfigurationType="1"
+			IntermediateDirectory="tmp\obj\release_mt_static\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="$(QTDIR)\include,C:\Qt\3.3.2\examples\trayicon,tmp\moc\release_mt_static\,C:\Qt\3.3.2\mkspecs\win32-msvc.net"
+				AdditionalOptions="-Zm200 -w34100 -w34189"
+				AssemblerListingLocation="tmp\obj\release_mt_static\"
+				BufferSecurityCheck="FALSE"
+				DebugInformationFormat="0"
+				ExceptionHandling="FALSE"
+				GeneratePreprocessedFile="0"
+				ObjectFile="tmp\obj\release_mt_static\"
+				Optimization ="1"
+				PreprocessorDefinitions="QT_NO_DEBUG,NDEBUG,_WINDOWS,UNICODE,WIN32,QT_THREAD_SUPPORT,NDEBUG"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="2"
+				SuppressStartupBanner="TRUE"
+				WarningLevel="3"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="qt-mt.lib qtmain.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib imm32.lib winmm.lib wsock32.lib winspool.lib delayimp.lib"
+				AdditionalLibraryDirectories="$(QTDIR)\lib"
+				DelayLoadDLLs="opengl32.dll,comdlg32.dll,oleaut32.dll,winmm.dll,wsock32.dll,winspool.dll"
+				GenerateDebugInformation="FALSE"
+				IgnoreImportLibrary="TRUE"
+				OutputFile=".\trayicon.exe"
+				ProgramDatabaseFile=""
+				SubSystem="2"
+				SuppressStartupBanner="TRUE"/>
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"/>
+		</Configuration>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="."
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			ConfigurationType="1"
+			IntermediateDirectory="Debug\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="$(QTDIR)\include,C:\Qt\3.3.2\examples\trayicon,tmp\moc\release_mt_static\,C:\Qt\3.3.2\mkspecs\win32-msvc.net"
+				AdditionalOptions="-Zm200 -w34100 -w34189"
+				AssemblerListingLocation="Debug\"
+				BufferSecurityCheck="FALSE"
+				DebugInformationFormat="3"
+				ExceptionHandling="FALSE"
+				GeneratePreprocessedFile="0"
+				MinimalRebuild="TRUE"
+				ObjectFile="Debug\"
+				Optimization ="1"
+				PreprocessorDefinitions="QT_NO_DEBUG,_WINDOWS,UNICODE,WIN32,QT_THREAD_SUPPORT"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="2"
+				SuppressStartupBanner="TRUE"
+				WarningLevel="3"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="qt-mt.lib qtmain.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib imm32.lib winmm.lib wsock32.lib winspool.lib delayimp.lib"
+				AdditionalLibraryDirectories="$(QTDIR)\lib"
+				GenerateDebugInformation="TRUE"
+				IgnoreImportLibrary="TRUE"
+				OutputFile="Debug\\trayicon.exe"
+				ProgramDatabaseFile=""
+				SubSystem="2"
+				SuppressStartupBanner="TRUE"/>
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;rc;def;r;odl;idl;hpj;bat">
+			<File
+				RelativePath="main.cpp">
+			</File>
+			<File
+				RelativePath="trayicon.cpp">
+			</File>
+			<File
+				RelativePath="trayicon_win.cpp">
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl">
+			<File
+				RelativePath="trayicon.h">
+				<FileConfiguration
+					Name="Release|Win32">
+			<Tool
+				Name="VCCustomBuildTool"
+				AdditionalDependencies="$(QTDIR)\bin\moc.exe"
+				CommandLine="$(QTDIR)\bin\moc.exe trayicon.h -o tmp\moc\release_mt_static\moc_trayicon.cpp"
+				Description="Moc&apos;ing trayicon.h..."
+				Outputs="tmp\moc\release_mt_static\moc_trayicon.cpp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+			<Tool
+				Name="VCCustomBuildTool"
+				AdditionalDependencies="$(QTDIR)\bin\moc.exe"
+				CommandLine="$(QTDIR)\bin\moc.exe trayicon.h -o tmp\moc\release_mt_static\moc_trayicon.cpp"
+				Description="Moc&apos;ing trayicon.h..."
+				Outputs="tmp\moc\release_mt_static\moc_trayicon.cpp"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Generated MOC Files"
+			Filter="cpp;c;cxx;moc">
+			<File
+				RelativePath="tmp\moc\release_mt_static\moc_trayicon.cpp">
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

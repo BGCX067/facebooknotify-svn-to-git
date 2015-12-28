@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fbnotify_localization_data>
+	<name>English</name>
+	<version>1.0</version>
+	<data>
+		<string key="product_name">fbNotify</string>
+		<!--FBNConfigurationWindow-->
+		<string key="configwindow_title">fbNotify | Settings</string>
+		<string key="configwindow_ok">OK</string>
+		<string key="configwindow_cancel">Cancel</string>
+		<string key="configwindow_reset">Load Defaults</string>
+		<string key="configwindow_resetbox_title">fbNotify | Reset Settings</string>
+		<string key="configwindow_resetbox_message">Are you sure you want to reset the default settings for fbNotify?</string>
+		<!--FBNTrayIcon-->
+		<string key="trayicon_login_action">&amp;Login</string>
+		<string key="trayicon_enable_action">&amp;Enable Notifications</string>
+		<string key="trayicon_settings_action">&amp;Settings</string>
+		<string key="trayicon_about_action">&amp;About fbNotify</string>
+		<string key="trayicon_exit_action">E&amp;xit</string>
+	</data>
+</fbnotify_localization_data>

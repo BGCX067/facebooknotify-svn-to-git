@@ -1,0 +1,8 @@
+| mingwm10.dll
++ libcurl-3.dll
+  | libeay32.dll
+  | libssl32.dll
+| qtcore4.dll
+| qtgui4.dll
+| qtxml4.dll
+ 
